@@ -710,29 +710,29 @@ $asunto='Confirmación de correo';
                                        <td style="height:57px;width:27px" valign="top">
                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-leftspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
                                            <a href="http://tuclasedebaile.com.co/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://oi65.tinypic.com/2ewfspf.jpg" style="width:104px;max-height:57px" border="0"></a>
                                        </td>
                                        <td style="font-size:1px;height:57px;line-height:1px;width:277px" height="57" valign="top" width="277">
                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-middlespacer@2x.png?v=2" style="width:277px;min-height:57px" border="0">
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:29px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:29px" align="left" valign="top">
                                            <a href="https://tuclasedebaile.wordpress.com/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
                                                <img class="CToWUd" alt="Blog" src="http://easydancelatino.com/img/correos/footerimg-blog@2x.png" style="width:29px;min-height:57px" border="0">
                                            </a>
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:26px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:26px" align="left" valign="top">
                                            <a href="https://twitter.com/tuclasedebaile" target="_blank">
                                                <img class="CToWUd" alt="Twitter" src="http://easydancelatino.com/img/correos/footerimg-twitter@2x.png?v=2" style="width:26px;min-height:57px" border="0">
                                            </a>
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
                                        </td>
-                                       <td style="font-size:1px;line-height:1px;font-family:'Helvetica Neue',Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:10px" align="left" valign="top">
+                                       <td style="font-size:1px;line-height:1px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:10px" align="left" valign="top">
                                            <a href="https://www.facebook.com/Tuclasedebaileoficial/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
                                                <img class="CToWUd" alt="Facebook" src="http://easydancelatino.com/img/correos/footerimg-facebook@2x.png?v=2" style="width:10px;min-height:57px" border="0">
                                            </a>

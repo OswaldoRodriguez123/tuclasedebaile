@@ -177,7 +177,7 @@
                 <form name="agregar_usuario" id="agregar_usuario" role="form" >
                 
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <input type="hidden" name="nombre"  value= "Prueba" >
+                <input type="text" name="nombre"  value= "Prueba" ng-model="formInfo.Nombre" style="display: none;"/>
                         <div class="roww row">
                             <div class="col-sm-6">
                                  <div class="form-group">

@@ -78,11 +78,11 @@ a:hover, a:active, a:focus {
 
 .banner{
     min-height: 428px;
-    height: 428px;
-    padding-top: 4.5rem;
+    height: 500px;
+    padding-top: 2.5rem;
     padding-bottom: 4.5rem;
     background: #273333 url("../../img/imagenes_nuevas/inicio-principal.jpg") no-repeat scroll 30% center;
-	color: #fff;
+	 color: #fff;
 }
 .banner-caracteristicas{
     min-height: 428px;
@@ -1367,4 +1367,32 @@ button._share._twitter {
     -webkit-transform:translate(0,-.125rem);
     -ms-transform:translate(0,-.125rem);
     transform:translate(0,-.125rem)
+}
+
+.div-registro {
+    background: #008def;
+    border-radius: 4px;
+    float: left;
+    font-size: 14px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    position: relative;
+    width: 350px;
+    padding:0px;
+}
+
+.div-titulo{
+
+    background: linear-gradient(to bottom,#383838 0,#323232 17%,#060606 85%,#010101 100%);
+    color: #c2c2c2;
+    font-family: ProximaNova-Bold,Arial,Helvetica,sans-serif;
+    font-size: 15px !important;
+    font-weight: 700;
+   /* margin: 0 !important;*/
+    /*margin-bottom: 5px !important;*/
+    /*padding: 10px !important;*/
+    text-transform: uppercase;
+    width: 100%;
+    float: left;
+    padding:5px;
 }

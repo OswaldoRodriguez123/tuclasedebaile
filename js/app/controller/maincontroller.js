@@ -36,6 +36,16 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
       $scope.celularRequired = '';
       $scope.formInfo.ComoNosConocisteRequired='';
 
+      if(!$('#mostrar').text()){
+
+        if (!$scope.formInfo.Nombre) {
+          procesar=false;
+          $scope.nombreRequired = 'Ups! El Nombre  es requerido';
+        }
+      }else{
+          $scope.formInfo.Nombre=$('#mostrar').text();
+      }
+
 
       if (!$scope.formInfo.Email) {
         procesar=false;
@@ -74,9 +84,9 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
         $scope.procesando=true;
         $scope.enviando=false;
 
-         $scope.formInfo.Nombre=$('#mostrar').text();
          $scope.enviado=false;
          $scope.procesando=true;
+         console.log($scope.formInfo);
          $.post("http://localhost/tuclasedebaile_v2016/script/interesado.php", { data : $scope.formInfo},
              function(response){
              //console.log(response);
