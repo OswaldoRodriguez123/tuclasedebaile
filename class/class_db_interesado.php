@@ -15,15 +15,17 @@
             $telefono_local= $data['telefono_local'];
             $telefono_movil= $data['telefono_movil'];
             $enteraste= $data['entero'];
+            $region= $data['region'];
             $sexo= $data['sexo'];
             //$sentencia=array();
-			if (!($sentencia = $this->mysqli->prepare('INSERT INTO interesados(id,correo,nombre,telefono_local,telefono_movil,sexo,enteraste,status,fecha) VALUES (NULL,?,?,?,?,?,?,?,NOW())'))){
+            
+			if (!($sentencia = $this->mysqli->prepare('INSERT INTO interesados(id,correo,nombre,telefono_local,telefono_movil,sexo,enteraste,region,status,fecha) VALUES (NULL,?,?,?,?,?,?,?,?,NOW())'))){
 				 //echo "Falló la preparación: (" . $this->mysqli->errno . ") " . $this->mysqli->error;
 				 return "2";
 			}
 			/* Sentencia preparada, etapa 2: vinculación y ejecución */
-			if (!$sentencia->bind_param("sssssii",$correo,$nombre,$telefono_local,$telefono_movil,$sexo,$enteraste,$status)){
-				//echo "Falló la vinculación de parámetros: (" . $sentencia->errno . ") " . $sentencia->error;
+			if (!$sentencia->bind_param("sssssiii",$correo,$nombre,$telefono_local,$telefono_movil,$sexo,$enteraste,$region,$status)){
+				echo "Falló la vinculación de parámetros: (" . $sentencia->errno . ") " . $sentencia->error;
 				return "3";
 			}
 

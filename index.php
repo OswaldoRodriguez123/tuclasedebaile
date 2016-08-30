@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mi Clase de Baile!</title>
+    <title>Tu Clase de Baile!</title>
      <meta name="description" content="Mi Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO EN 90 DÍAS!" />
     <link rel="shortcut icon" type="image/x-icon" href=""/>
     <meta property="og:title" content="MÁS DE DIEZ AÑOS DE EXPERIENCIA NOS AVALAN | Mi Clase de Baile!" />
     <meta property="og:description" content="Mi Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO EN 90 DÍAS!" />
     <meta property="og:image" content="" />
-    <base href="/tuclasedebaile_v2016/" >
+<!--     <base href="/tuclasedebaile_v2016/" > -->
+    <base href="http://tuclasedebaile.com.co/" >
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/fontawesome/font-awesome.min.css" rel="stylesheet">
     <link href="css/angular-load/loading-bar.min.css" rel="stylesheet">
@@ -32,6 +33,7 @@
     <script src="js/vendor/angular_load/loading-bar.min.js"></script> 
     <script src="js/vendor/angular_validate/jquery.validate.min.js"></script>
     <script src="js/vendor/angular_validate/angular-validate.min.js"></script>
+    <script src="js/vendor/mask/mask.js"></script>
     <!--<script src="js/vendor/angular_ui_bootstrap/ui-bootstrap-0.13.4.min.js"></script><!-->    
     <script src="js/app/main.js"></script>    
     <script src="js/app/controller/maincontroller.js"></script>
@@ -56,16 +58,19 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li style="padding-left: 50px"><a href="#/"> <span style="color:#3E93CC; font-size:20px"> Tu Clase de Baile</span></a></li>
+            <li style="padding-left: 50px"><a href="#/"> <span style="color:#3E93CC; font-size:20px;"> Tu Clase de Baile</span></a></li>
             <li><a href="#/ofrecemos" ng-class="getClass('/ofrecemos')"> <span style="color:#3E93CC; font-size:20px"> Ofrecemos</span></a></li>
-<!--             <li><a href="#/tarifas" ng-class="getClass('/tarifas')" >Programa</a></li>
-            <li><a href="#/embajadores" ng-class="getClass('/embajadores')" >Equipo Energía</a></li>			
-            <li><a href="#/noticias" ng-class="getClass('/noticias')" >Noticias</a></li> -->
+
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+
+
+    <!--             <li><a href="#/tarifas" ng-class="getClass('/tarifas')" >Programa</a></li>
+            <li><a href="#/embajadores" ng-class="getClass('/embajadores')" >Equipo Energía</a></li>      
+            <li><a href="#/noticias" ng-class="getClass('/noticias')" >Noticias</a></li> -->
     	
     <a href="#" class="scroll-top pi-active"><i class="tam-1-2 fa fa-chevron-up"></i></a>
     <!--<div class="container">

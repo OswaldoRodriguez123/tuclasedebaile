@@ -48,6 +48,7 @@ a:hover, a:active, a:focus {
 .navbar-nav{
    padding-top: 12px !important; 
    padding-bottom: 5px !important; 
+   height:70px;
 }
 
 .navbar-brand{
@@ -83,6 +84,24 @@ a:hover, a:active, a:focus {
     padding-bottom: 4.5rem;
     background: #273333 url("../../img/imagenes_nuevas/inicio-principal.jpg") no-repeat scroll 30% center;
 	 color: #fff;
+}
+
+.banner_arriba{
+    min-height: 428px;
+    height: 500px;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    background: #273333 url("../../img/imagenes_nuevas/inicio_arriba.jpg") no-repeat scroll 30% center;
+   color: #fff;
+}
+
+.banner_abajo{
+    min-height: 428px;
+    height: 500px;
+/*    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;*/
+    background: #273333 url("../../img/imagenes_nuevas/inicio_abajo.jpg") no-repeat scroll 30% center;
+   color: #fff;
 }
 .banner-caracteristicas{
     min-height: 428px;
@@ -590,6 +609,34 @@ fieldset[disabled] .btn-rojo.active {
     color:#fff !important;
     border: solid 1px #fff;
 }
+
+.btn-rosado { 
+    background-color: #ffb6c1;
+    color:#fff;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: solid 1px #fff;
+}
+
+.btn-rosado:hover, 
+.btn-rosado:focus, 
+.btn-rosado:active, 
+.btn-rosado.active, 
+.open .dropdown-toggle.btn-azul-claro { 
+    color:#fff !important;
+}
+
+
+/*.btn-rosado:hover, 
+.btn-rosado:focus, 
+.btn-rosado:active, 
+.btn-rosado.active, 
+.open .dropdown-toggle.btn-azul-claro { 
+    background-color: #ffb6c1;
+    color:#fff !important;
+    border: solid 1px #fff;
+}*/
 
 button.btn-azul{
     background-color: transparent;
@@ -1396,3 +1443,9 @@ button._share._twitter {
     float: left;
     padding:5px;
 }
+
+.error
+{
+ border:2px solid red;
+}
+

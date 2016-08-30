@@ -35,12 +35,21 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
       $scope.sexoRequired = '';
       $scope.celularRequired = '';
       $scope.formInfo.ComoNosConocisteRequired='';
+      $scope.formInfo.RegionRequired='';
+
+      $( "#nombre" ).removeClass( "error" );
+      $( "#email" ).removeClass( "error" );
+      $( "#email_confirmation" ).removeClass( "error" );
+      $( "#celular" ).removeClass( "error" );
+      $( "#como_nos_conociste_id" ).removeClass( "error" );
+      $( "#region" ).removeClass( "error" );
 
       if(!$('#mostrar').text()){
 
         if (!$scope.formInfo.Nombre) {
           procesar=false;
           $scope.nombreRequired = 'Ups! El Nombre  es requerido';
+          $( "#nombre" ).addClass( "error" );
         }
       }else{
           $scope.formInfo.Nombre=$('#mostrar').text();
@@ -50,17 +59,19 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
       if (!$scope.formInfo.Email) {
         procesar=false;
         $scope.emailRequired = 'Ups! El Correo  es requerido';
+        $( "#email" ).addClass( "error" );
       }
 
       if (!$scope.formInfo.EmailConfirmation) {
         procesar=false;
         $scope.emailConfirmationRequired = 'Ups! El Correo  es requerido';
+        $( "#email_confirmation" ).addClass( "error" );
       }
 
-      if (!$scope.formInfo.Telefono) {
-        procesar=false;
-        $scope.telefonoRequired = 'Ups! El Telefono local es requerido';
-      }
+      // if (!$scope.formInfo.Telefono) {
+      //   procesar=false;
+      //   $scope.telefonoRequired = 'Ups! El Telefono local es requerido';
+      // }
 
       if (!$scope.formInfo.Sexo) {
         procesar=false;
@@ -70,11 +81,19 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
       if (!$scope.formInfo.Celular) {
         procesar=false;
         $scope.celularRequired = 'Ups! El Telefono móvil es requerido';
+        $( "#celular" ).addClass( "error" );
       }
 
       if (!$scope.formInfo.ComoNosConociste) {
         procesar=false;
         $scope.ComoNosConocisteRequired = 'Ups! La pregunta de ¿Cómo nos conociste? es requerida';
+        $( "#como_nos_conociste_id" ).addClass( "error" );
+      }
+
+      if (!$scope.formInfo.Region) {
+        procesar=false;
+        $scope.RegionRequired = 'Ups! La Region es requerida';
+        $( "#region" ).addClass( "error" );
       }
 
       //console.log(procesar);
@@ -87,7 +106,8 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
          $scope.enviado=false;
          $scope.procesando=true;
          console.log($scope.formInfo);
-         $.post("http://localhost/tuclasedebaile_v2016/script/interesado.php", { data : $scope.formInfo},
+         $.post("http://tuclasedebaile.com.co/script/interesado.php", { data : $scope.formInfo},
+         // $.post("http://localhost/tuclasedebaile_v2016/script/interesado.php", { data : $scope.formInfo},
              function(response){
              //console.log(response);
              var status=response.estado;  
@@ -105,7 +125,8 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
                $scope.vcorrecto=true;
                $scope.vduplicado=false;
                //window.location="empezar/listo";
-               $(location).attr('href','http://localhost/tuclasedebaile_v2016/#/empezar/listo');
+               $(location).attr('href','http://tuclasedebaile.com.co/#/empezar/listo');
+               // $(location).attr('href','http://localhost/tuclasedebaile_v2016/#/empezar/listo');
                //$("html, body").animate({ scrollTop: 0 }, "slow");
             }else{               
                $scope.vcorrecto=false;
@@ -126,4 +147,39 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
     templateUrl: 'myPopoverTemplate.html',
     title: 'Title'
   };
+});
+
+MyApp.controller('confirmacionController', function($scope,$location,$http,$window,$routeParams,$timeout,$window) {
+     $scope.correo_id = typeof($routeParams.correo) == "undefined" ? '0' : $routeParams.correo;
+     try {
+     $scope.correo_id = atob($scope.correo_id);
+     } catch(e){
+     $scope.correo_id = "";
+     }
+   console.log($scope.correo_id);
+     if($scope.correo_id=='0'){
+      $location.url('/no_confirmado');
+     }else{
+     console.log('entre');
+        $.post("http://tuclasedebaile.com.co/script/interesado.php", { confirmar: 'confirmar', correo : $scope.correo_id},
+             function(response){   
+        console.log(response);
+        if(response.mensaje=='confirmado'){
+          $timeout(function() {
+            $scope.confirmado=true;
+            $scope.sinconfirmar=false;
+           });
+          window.setTimeout(function(){
+            //$window.location.href="http://app.easydancelatino.com/";
+          }, 5000)
+        }else{
+        $timeout(function() {
+            $scope.confirmado=false;
+          $scope.sinconfirmar=true;
+           });
+          
+
+        }
+       });
+     }  
 });

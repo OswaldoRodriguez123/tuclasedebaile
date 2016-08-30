@@ -1,5 +1,5 @@
 // Creación del módulo
-var MyApp = angular.module('MyApp', ['ngRoute','ngValidate','ngAnimate','ngTouch','ui.bootstrap','angular-loading-bar']);
+var MyApp = angular.module('MyApp', ['ngRoute','ngValidate','ngAnimate','ngTouch','ui.bootstrap','angular-loading-bar', 'ui.mask']);
 angular.module('MyApp')
     .config(function ($validatorProvider,cfpLoadingBarProvider) {
         cfpLoadingBarProvider.includeSpinner = true;

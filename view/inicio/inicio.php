@@ -18,231 +18,161 @@
     </div>
     </section> -->
 
-    <section>
+    <section class="margin-top-30">
         <div class="container">
-            <div class="row"> 
-                <div class="col-lg-offset-9 col-md-3 div-registro">
-                <div class="text-center div-titulo">Empieza Ya</div>
-
-                <form name="agregar_usuario" id="agregar_usuario" role="form" >
-                    
-                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
-
-
-                            <div class="col-sm-12" style="padding-top:10px">
-                                 <div class="form-group">
-
-                                    <div class="fg-line">
-                                    <input type="text" class="form-control input-sm" name="nombre" id="nombre" placeholder="Nombre" ng-model="formInfo.Nombre">
-                                    </div>
-                                    
-                                 </div>
-                                 <span ng-show="nombreRequired">{{nombreRequired}}</span>
-                                </div>
-
-
-                               <br>
-
-                    
-                                <div class="col-sm-6">
-                                 <div class="form-group">
-
-                                    <div class="fg-line">
-                                    <input type="email" class="form-control input-sm" name="email" id="email" placeholder="Correo electrónico" ng-model="formInfo.Email">
-                                    </div>
-                                    
-                                 </div>
-                                 <span ng-show="emailRequired">{{emailRequired}}</span>
-                                </div>
-
-
-                                <div class="col-sm-6">
-                                 <div class="form-group">
-                                    <div class="fg-line">
-                                    <input type="email" class="form-control input-sm" name="email_confirmation" id="email_confirmation" placeholder="Repite correo electrónico" ng-model="formInfo.EmailConfirmation">
-                                    </div>
-                                    
-                                 </div>
-                                  <span ng-show="emailConfirmationRequired">{{emailConfirmationRequired}}</span>
-                                 </div>
-
-
-                               <br>
-
-                                <div class="col-sm-6">
-                                 <div class="form-group">
-                                    <div class="fg-line">
-                                    <input type="text" class="form-control input-sm input-mask" name="celular" id="celular" data-mask="(000)000-0000" placeholder="Número Móvil" ng-model="formInfo.Celular">
-                                    </div>
-                                 </div>
-                                    <span ng-show="celularRequired">{{celularRequired}}</span>
-                               </div>
-
-                                <div class="col-sm-6">
-                                 <div class="form-group">
-                                    <div class="fg-line">
-                                    <input type="text" class="form-control input-sm input-mask" name="telefono" id="telefono" data-mask="(000)000-0000" placeholder="Número Local" ng-model="formInfo.Telefono">
-                                    </div>
-                                 </div>
-                                    <span ng-show="telefonoRequired">{{telefonoRequired}}</span>
-                               </div>
-                                 
-
-                               <br>
-
-                                <div class="col-sm-12">
-                                          <div class="form-group">
-                                                <div class="fg-line">
-                                                  <div class="select">
-                                                      <select class="form-control" id="como_nos_conociste_id" name="como_nos_conociste_id" placeholder="Seleccione>>" ng-model="formInfo.ComoNosConociste">
-                                                      <option value="">¿Cómo nos conociste?</option>
-                                                      <option value="1">Por un amigo</option>
-                                                      <option value="2">Redes Sociales / Internet</option>
-                                                      <option value="3">Prensa</option>
-                                                      <option value="4">Televisión</option>
-                                                      <option value="5">Radio</option>
-                                                      <option value="6">Otros</option>
-                                                      </select>
-                                                </div>
-                                                </div>
-
-                                    </div>
-                                        <span ng-show="ComoNosConocisteRequired">{{ComoNosConocisteRequired}}</span>
-                                 </div>
-
-                                 <br>
-
-                                    <div class="col-sm-12 ">
-
-                                        <label for="correo">Sexo</label>
-                                        <div class="form-group">
-                                          <div class="p-t-10">
-                                        <label class="radio radio-inline m-r-20">
-                                            <input name="sexo" id="mujer" value="F" type="radio" ng-model="formInfo.Sexo">
-                                            <i class="input-helper"></i>  
-                                            Mujer <i class="zmdi zmdi-female p-l-5 f-20"></i>
-                                        </label>
-                                        <label class="radio radio-inline m-r-20 " style="margin-top:10px">
-                                            <input name="sexo" id="hombre" value="M" type="radio" ng-model="formInfo.Sexo">
-                                            <i class="input-helper"></i>  
-                                            Hombre <i class="zmdi zmdi-male-alt p-l-5 f-20"></i>
-                                        </label>
-                                        </div>
-                                       </div>
-                                        <span ng-show="sexoRequired">{{sexoRequired}}</span>
-                                   </div>
-
-
-
-
-                                   <div class="clearfix"></div>
-
-                            <div class="text-center">
-
-                            <br><br>
-
-                               <button type="button" ng-show="enviando" class="btn btn-azul-claro m-r-10 f-22 guardar" id="guardar" name ="guardar" ng-click="saveData()">Llévame</button>
-                               <div class="alert alert-info" role="alert" ng-show="procesando" >Espere un momento estamos procesando</div>
-                               <br>
-                               
-                            </div>
-                             <br>
-                        </form>
-
-
-                </div>
+        <div class="row"> 
+        <div class="col-md-12">    
+            <!--<h3 class="text-center">SOFTWARE PRÁCTICO Y ROBUSTECIDO QUE SE ADAPTA A LAS NECESIDADES DE LAS ACADEMIAS
+         DE BAILE DE CUALQUIER ESPECIALIDAD O GÉNERO</h3>-->
+         
+        </div>
+        </div>
+        </div>
+        <div class="container margin-top-10">
+        <div class="row">
+        <br>
+            <div class="col-md-12 text-center" style="padding-top:100px">    
+            <h2 class="text-center">¡APRENDE A BAILAR SALSA CASINO EN 90 DÍAS!</h2>
+                    <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">Empieza Ya</a>        
             </div>
         </div>
-
+        </div>
     </section>
 </div>
 
 <section class=" padding-top-bottom-50">
 <div class="container">
 <div class="row">
-    <div class="col-md-12 vcenter text-center">
-        <h3>NUESTRAS VENTAJAS</h3> 
-        <br>
-        <h3>CON MÁS DE 10 AÑOS DE EXPERIENCIA HEMOS AYUDADOS A MILES DE ALUMNOS A LOGRAR SUS OBJETIVOS</h3> 
-
-        <br>
-        <div class="text-left">
-        <p>1-   Profesor internacionales con más de diez años de experiencia <br>
-            2-  Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo en cada nivel superado<br>
-            3-  Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con una experiencia de montaje de grandes escenarios<br>
-            4-  Nuestros alumnos cuentan  con la plataforma tecnológica para gestionar múltiples funcionalidades 
-
+    <div class="col-md-6 vcenter padding-top-bottom-20" style="padding-bottom:10px">
+        <img class="img-responsive w100 opaco-0-8" alt="Video 700x450" src="img/imagenes_nuevas/inicio-3.jpg" style="height:500px" > <!--src="img/700x450.png"--> 
+    </div><!--
+    --><div class="col-md-6 vcenter text-center">
+        <h3>APRENDE A BAILAR EN PAREJA DE FORMA FÁCIL</h3> 
+        <p>El baile se disfruta en pareja  y en Tu Clase de baile,
+		nos encanta enseñar los géneros que actualmente se encuentra de moda,
+		tales como, la Salsa Casino, Kizomba, bachata merengue dominicana entre otros,
+		con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos ….
 		</p>
-        </div>
     <br><br>
-        <a class="btn btn-azul-claro btn-lg text-uppercase subir">INICIA HOY</a>
+        <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">MÁS INFORMACIÓN</a>
     </div>
 </div>
 </div>
 </section>
-
-<section class="padding-top-bottom-50 fondo-clouds">
+<section class="fondo-clouds padding-top-bottom-50">
+  <div class="container">
+  <div class="row">
+    <h3 class="text-center">
+	¡ SALSA CASINO – AFROCUBANO - BACHATA – MERENGUE – KIZOMBA !
+	</h3>
+  </div>
+  </div>
+</section>
+<section class="padding-top-bottom-50">
   <div class="container">
   <div class="row">
     <h3 class="text-center">CASOS DE ÉXITO</h3>  
-
-     <div class="col-md-4 padding-top-bottom-20 text-center">
+    <!--<div class="col-md-4 padding-top-bottom-20 text-center">
+        <div class="card">
+            <div class="card-header ch-alt"><i class="fa fa-sitemap tam-8 padding-top-bottom-20"></i></div>
+            <div class="card-body card-padding">
+              <h4>ORGANIZAMOS TÚ ACADEMIA</h4>                    
+              Garantizamos la organización en las áreas  de administración , asistencia de alumnos, cursos, fechas y actividades especiales.
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 padding-top-bottom-20 text-center">
+     <div class="card">
+        <div class="card-header ch-alt"><i class="fa fa-line-chart tam-8 padding-top-bottom-20"></i></div>
+        <div class="card-body card-padding">
+          <h4>ESTADÍSTICAS DE TUS AVANCES</h4>  
+          Control de medición de todos los diversos  módulos del sistema, conocerás  tus avances de manera sistemática.
+        </div>
+     </div>  
+    </div>
+    <div class="col-md-4 padding-top-bottom-20 text-center ">
+       <div class="card">
+           <div class="card-header ch-alt"><span  ><i class="fa fa-cog tam-8 padding-top-bottom-20"></i></span></div>
+            <div class="card-body card-padding">
+              <h4>HERRAMIENTAS INNOVADORAS</h4>  
+              Bríndale a tus alumnos , instructores y equipo e trabajo , las herramientas de última generación para mejorar tus servicios. 
+            </div>
+        </div> 
+    </div>-->
+    <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-1.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>ANDREA MARULANDA</h4>                    
-        <p>Estoy muy contenta con el trabajo que realizan. Contar con profesores de talla internacional, que ademas están capacitados y cuentan con todas las herramientas para ayudar a los estudiantes a mejorar en su proceso formativo es maravilloso.</p>
+        <h4>Ediani Hernandez</h4>                    
+        <p>He competido en diversos eventos a nivel nacional y 
+		en todos he tenido la oportunidad de  subirme  al pódium entre los primeros lugares, 
+		cada día que pasa quiero aprender más, he alcanzado mi sueño.</p>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-2.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>HERNAN PALACIO</h4>  
-        <p> Les agradezco mucho, me hicieron ver la música de una manera distinta , ver la música de esta forma es algo que me aporta mucho a la hora de estructurar una canción.</p>   
+        <h4>Daiver Villalobos</h4>  
+        <p> Cuando inicié en la Academia, wow jajaja estuve  algo nervioso, 
+		gracias a la atención y motivación de los profesores hoy en día puedo decir aprendí a bailar.</p>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/caso-3.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>Yenire Finol</h4>  
         <p>Me inicié en la Academia, porque no sabía bailar, gracias a la atención de los profesores
-        he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada.</p> 
+		he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada.</p> 
+    </div>
+    <div class="col-md-12 text-center padding-top-40">        
+            <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">A BAILAR</a>        
     </div>
   </div>
   </div> 
 </section>
-
+<section class="fondo-clouds padding-top-bottom-50">
+  <div class="container">
+  <div class="row">
+    <h3 class="text-center">
+	<img class="img-responsive" alt="Marco" src="img/miclasedebaile.jpg" >
+	</h3>
+  </div>
+  </div>
+</section>
 <section class="margin-top-40">
    <div class="container">
     <div class="row"> 
+        <div class="col-md-12 text-center" id="list-icon" >
+		<h3 class="padding-bottom-20">Características de la Academia</h3>
+    
+    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-asistencia" style="font-size:60px"></i></div><p>Asistencia</p></div>
+    
+    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-eventos" style="font-size:50px"></i></div><p>Eventos</p></div>
 
+    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-clases-grupales" style="font-size:50px"></i></div><p>Clases Grupales</p></div>	
 
-    <div class="col-md-12 vcenter">
-        <h3>Este es tu momento</h3> 
-        <br>
+	  <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-clases-personalizadas" style="font-size:50px"></i></div><p>Atenión Personalizada</p></div>
 
-        <span>Verás que todos podemos aprender a bailar , podrás recibir clases grupales o personalizadas , con una metodología acorde para tu aprendizaje.</span>
-        <br>
+    <div class="clearfix p-b-15"></div>
 
-        <h3>¿Qué hacer para empezar?</h3> 
-        <br>
+	  <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-tecnologia" style="font-size:50px"></i></div><p>Tecnología a sus manos</p></div>		
 
-        <span>Llena el formulario “empieza ya” y un asesor te llamará para explorar las clases ideales para ti, nuestras ofertas actuales y tus facilidades de pago. ¡Estás a solo un clic de tu primera clase de baile.</span>
-        <br>
+	   <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"></div><i class="icon_a-compania-de-baile" style="font-size:50px"></i><p>Compañia de baile</p></div>	
 
-    <br><br><br>
-    <div class="text-center">
-        <a class="btn btn-azul-claro btn-lg text-uppercase subir">Empieza ya</a>
-    </div>
+	   <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-certificados" style="font-size:50px"></i></div><p>Certificación</p></div>
 
-        <br><br><br>
-    </div>
-
-     
+	   <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-invitados-especiales" style="font-size:50px"></i></div><p>Invitados Especial</p></div>			
+			<!--<div class="col-md-4 padding-bottom-40"><img src="img/iconos/invitados.png" class="img-responsive img-center padding-bottom-30" width="80" >Invitados Especial</div>
+			<div class="col-md-4 padding-bottom-40 icono"> <div class="icono-inicio">
+                            <img id="icono-img-09" src="img/iconos/invitados.png" width="100">                         
+                        </div> 
+                        <p>Invitados Especial</p>
+                        </div>-->
+			
+			<!--
+            <hr>
+            Alumnos / Instructores / Cursos / Academias / Clases Particulares / 15 Años / Agenda de Actividades / Eventos / Facturación 
+            <hr>-->
+            
+        </div>
     </div>
    </div>
 </section>
 </div>
 <script type="text/javascript-lazy">
    loadjscssfile("js/function/cargar.js", "js");
-
-   $(".subir").click(function(){
-
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-
-   });
 </script>
