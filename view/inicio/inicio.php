@@ -33,7 +33,7 @@
         <br>
             <div class="col-md-12 text-center" style="padding-top:100px">    
             <h2 class="text-center">¡APRENDE A BAILAR SALSA CASINO EN 90 DÍAS!</h2>
-                    <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">Empieza Ya</a>        
+                    <a href="#/empezar" class="btn btn-blanco-grande btn-lg text-uppercase">Empieza Ya</a>        
             </div>
         </div>
         </div>
@@ -43,8 +43,8 @@
 <section class=" padding-top-bottom-50">
 <div class="container">
 <div class="row">
-    <div class="col-md-6 vcenter padding-top-bottom-20" style="padding-bottom:10px">
-        <img class="img-responsive w100 opaco-0-8" alt="Video 700x450" src="img/imagenes_nuevas/inicio-3.jpg" style="height:500px" > <!--src="img/700x450.png"--> 
+    <div id="ancho-41" class="col-md-6 vcenter padding-top-bottom-20" style="padding-bottom:10px; ">
+        <img id="imagen_inicio_medio" class="img-responsive w100 opaco-0-8" alt="Imagen" src="img/imagenes_nuevas/inicio-3.jpg"> <!--src="img/700x450.png"--> 
     </div><!--
     --><div class="col-md-6 vcenter text-center">
         <h3>APRENDE A BAILAR EN PAREJA DE FORMA FÁCIL</h3> 
@@ -54,7 +54,7 @@
 		con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos ….
 		</p>
     <br><br>
-        <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">MÁS INFORMACIÓN</a>
+        <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">MÁS INFORMACIÓN</a>
     </div>
 </div>
 </div>
@@ -107,8 +107,8 @@
 		cada día que pasa quiero aprender más, he alcanzado mi sueño.</p>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/caso-2.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>Daiver Villalobos</h4>  
+        <img src="img/caso-7.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <h4>Daniel Bolivar</h4>  
         <p> Cuando inicié en la Academia, wow jajaja estuve  algo nervioso, 
 		gracias a la atención y motivación de los profesores hoy en día puedo decir aprendí a bailar.</p>   
     </div>
@@ -119,7 +119,7 @@
 		he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada.</p> 
     </div>
     <div class="col-md-12 text-center padding-top-40">        
-            <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">A BAILAR</a>        
+            <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A BAILAR</a>        
     </div>
   </div>
   </div> 

@@ -16,7 +16,7 @@
 		    <br>
             <div class="col-md-12 text-center" style="padding-top:100px">    
 				    <h2 class="text-center">MÁS DE DIEZ AÑOS DE EXPERIENCIA NOS  AVALAN</h2>
-                    <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">BAÍLAME</a>        
+                    <a href="#/empezar" class="btn btn-blanco-grande btn-lg text-uppercase">BAÍLAME</a>        
             </div>
         </div>
         </div>
@@ -116,7 +116,7 @@
             </p>
         </div>
         <div class="col-md-12 padding-top-20">
-            <img class="img-responsive" src="img/imagenes_nuevas/ofrecemos-2.jpg"> 
+            <img style="margin: 0 auto;" class="img-responsive" src="img/imagenes_nuevas/ofrecemos-2.jpg"> 
         </div>
     </div>
    </div>
@@ -146,7 +146,7 @@
 				las herramientas de última tecnología, para que bailar en nuestra academia se 
 				convierta en más que una actividad física en una  experiencia de alto nivel. 
             </p>
-             <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">A Bailar</a> 
+             <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A Bailar</a> 
         </div> 
         <div class="col-md-7 vcenter padding-top-10">
             <img class="img-responsive w100" src="img/ofrecemos-3.jpg">
@@ -209,10 +209,10 @@
 				nuestros alumnos deben  ascender de nivel para lograr su certificación y de este modo obtener su 
 				respectiva  graduación
             </p>
-            <a href="#/empezar" class="btn btn-azul-claro btn-lg text-uppercase">A Bailar</a>
+            <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A Bailar</a>
         </div> 
         <div class="col-md-7 vcenter padding-top-10">
-            <img class="img-responsive w100" src="img/ofrecemos-5.jpg">
+            <img class="img-responsive w100" src="img/insignias.jpg">
         </div>       
     </div>       
    </div>

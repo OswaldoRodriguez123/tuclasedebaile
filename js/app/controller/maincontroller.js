@@ -34,8 +34,8 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
       $scope.telefonoRequired = '';
       $scope.sexoRequired = '';
       $scope.celularRequired = '';
-      $scope.formInfo.ComoNosConocisteRequired='';
-      $scope.formInfo.RegionRequired='';
+      $scope.ComoNosConocisteRequired='';
+      $scope.RegionRequired='';
 
       $( "#nombre" ).removeClass( "error" );
       $( "#email" ).removeClass( "error" );
@@ -66,6 +66,12 @@ MyApp.controller('tuClaseDeBaileController', function($scope,$location,$http,$wi
         procesar=false;
         $scope.emailConfirmationRequired = 'Ups! El Correo  es requerido';
         $( "#email_confirmation" ).addClass( "error" );
+      }else{
+        if($scope.formInfo.Email != $scope.formInfo.EmailConfirmation){
+          procesar=false;
+          $scope.emailConfirmationRequired = 'Ups! Los correos no coinciden';
+          $( "#email_confirmation" ).addClass( "error" );
+        }
       }
 
       // if (!$scope.formInfo.Telefono) {

@@ -9,7 +9,7 @@
     <meta property="og:title" content="MÁS DE DIEZ AÑOS DE EXPERIENCIA NOS AVALAN | Mi Clase de Baile!" />
     <meta property="og:description" content="Mi Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO EN 90 DÍAS!" />
     <meta property="og:image" content="" />
-<!--     <base href="/tuclasedebaile_v2016/" > -->
+    <!-- <base href="/tuclasedebaile_v2016/" > -->
     <base href="http://tuclasedebaile.com.co/" >
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/fontawesome/font-awesome.min.css" rel="stylesheet">
@@ -42,6 +42,22 @@
     <script src="js/app/directive/maindirective.js"></script>    
     <script src="js/function/function.js"></script>
     <script src="js/input-mask/input-mask.min.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '783547831774120');
+    fbq('track', "PageView");
+    fbq('track', 'Lead');</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=783547831774120&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
     
 </head>
 <body>
@@ -60,6 +76,8 @@
           <ul class="nav navbar-nav">
             <li style="padding-left: 50px"><a href="#/"> <span style="color:#3E93CC; font-size:20px;"> Tu Clase de Baile</span></a></li>
             <li><a href="#/ofrecemos" ng-class="getClass('/ofrecemos')"> <span style="color:#3E93CC; font-size:20px"> Ofrecemos</span></a></li>
+
+            <li><a href="https://tuclasedebaile.wordpress.com/"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li>
 
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
           </ul>

@@ -17,14 +17,14 @@
             $enteraste= $data['entero'];
             $region= $data['region'];
             $sexo= $data['sexo'];
-            //$sentencia=array();
+            $fecha_hora = date("Y-m-d H:i:s", strtotime('-1 hours'));
             
-			if (!($sentencia = $this->mysqli->prepare('INSERT INTO interesados(id,correo,nombre,telefono_local,telefono_movil,sexo,enteraste,region,status,fecha) VALUES (NULL,?,?,?,?,?,?,?,?,NOW())'))){
+			if (!($sentencia = $this->mysqli->prepare('INSERT INTO interesados(id,correo,nombre,telefono_local,telefono_movil,sexo,enteraste,region,status,fecha, hora) VALUES (NULL,?,?,?,?,?,?,?,?,?,?)'))){
 				 //echo "Falló la preparación: (" . $this->mysqli->errno . ") " . $this->mysqli->error;
 				 return "2";
 			}
 			/* Sentencia preparada, etapa 2: vinculación y ejecución */
-			if (!$sentencia->bind_param("sssssiii",$correo,$nombre,$telefono_local,$telefono_movil,$sexo,$enteraste,$region,$status)){
+			if (!$sentencia->bind_param("sssssiiiss",$correo,$nombre,$telefono_local,$telefono_movil,$sexo,$enteraste,$region,$status,$fecha_hora,$fecha_hora)){
 				echo "Falló la vinculación de parámetros: (" . $sentencia->errno . ") " . $sentencia->error;
 				return "3";
 			}
