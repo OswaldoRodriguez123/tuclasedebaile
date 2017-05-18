@@ -9,8 +9,8 @@
       <meta name="description" content="Tu Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO Y BACHATA!" />
       <meta property="og:image" content="" />
       <link rel="shortcut icon" type="image/x-icon" href=""/>
-      <base href="/tuclasedebaile_v2016/" >
-      <!-- <base href="http://tuclasedebaile.com.co/" > -->
+      <base href="/tuclasedebaile/" >
+<!--       <base href="http://tuclasedebaile.com.co/" > -->
       <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
       <link href="css/fontawesome/font-awesome.min.css" rel="stylesheet">
       <link href="css/angular-load/loading-bar.min.css" rel="stylesheet">
@@ -20,13 +20,17 @@
       <link href="css/css_filter.css" rel="stylesheet">
   <!--     <link href="css/app.min.1.css" rel="stylesheet"> -->
       <link href="css/animate.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/stylew.css" />
+      <link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+
+
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-      <script src="js/vendor/jquery/jquery-1.11.3.min.js"></script>
+      <script src="js/vendor/jquery/jquery.min.js"></script>
       <script src="js/vendor/angular/angular.min.js"></script>
       <script src="js/vendor/angular_lib/angular-animate.min.js"></script> 
       <script src="js/vendor/angular_lib/angular-touch.min.js"></script>
@@ -43,8 +47,10 @@
       <script src="js/function/function.js"></script>
       <script src="js/input-mask/input-mask.min.js"></script>
       <script src="js/vendor/bootstrap/bootstrap.min.js"></script>    
-      <script src="js/function/default.js"></script>
+     <!--  <script src="js/function/default.js"></script> -->
       <script src="js/vendor/bootstrap-sweetalert/sweet-alert.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/jquery.iconmenu.js"></script>
 
       <!-- Facebook Pixel Code -->
       <script>
@@ -84,6 +90,7 @@
 
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
             <li><a href="#/nosotros" ng-class="getClass('/nosotros')" > <span style="color:#3E93CC; font-size:20px"> Nosotros</span></a></li>
+            <li><a href="#/lideres-en-accion" ng-class="getClass('/lideres-en-accion')" > <span style="color:#3E93CC; font-size:20px"> Lideres en Acción</span></a></li>
             <!-- <li><a href="#/aliados" ng-class="getClass('/aliados')" > <span style="color:#3E93CC; font-size:20px"> Aliados</span></a></li> -->
           </ul>
         </div><!--/.nav-collapse -->

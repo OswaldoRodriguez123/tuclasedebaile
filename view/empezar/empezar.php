@@ -115,27 +115,27 @@
                                         <span ng-show="ComoNosConocisteRequired">{{ComoNosConocisteRequired}}</span>
                                  </div>
 
-                                <br>
+                                 <br>
 
 
 
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <div class="fg-line">
-                                          <div class="select">
-                                              <select class="form-control" id="region" name="region" placeholder="Seleccione>>" ng-model="formInfo.Region">
-                                                  <option value="">Region / Ubicacion</option>
-                                                  <option value="1">Pereira - Sede Centro</option>
-                                                  <option value="3">Pereira - Sede Circunvalar</option>
-                                              </select>
-                                            </div>
-                                        </div>
+                                    <div class="col-sm-12">
+                                          <div class="form-group">
+                                                <div class="fg-line">
+                                                  <div class="select">
+                                                      <select class="form-control" id="region" name="region" placeholder="Seleccione>>" ng-model="formInfo.Region">
+                                                          <option value="">Región / Ubicación</option>
+                                                          <option value="1">Pereira - Sede Centro</option>
+                                                          <option value="3">Pereira - Sede Circunvalar</option>
+                                                      </select>
+                                                    </div>
+                                                </div>
 
                                     </div>
-                                    <span ng-show="RegionRequired">{{RegionRequired}}</span>
-                                </div>
+                                        <span ng-show="RegionRequired">{{RegionRequired}}</span>
+                                 </div>
 
-                                <br>
+                                 <br>
 
                                     <div class="col-sm-12 ">
 
@@ -208,7 +208,7 @@
     <div class="col-md-3 padding-top-bottom-20 text-center">
         <img src="img/ic_certificado.png" class="img-circle img-responsive img-center img-150" alt="" > 
         <br>             
-        <span> Reconocemos el  esfuerzo de nuestros alumnos , por lo tanto le otorgamos títulos de certificación  </span>
+        <span> Reconocemos el esfuerzo de nuestros alumnos, por lo tanto le otorgamos títulos de certificación </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
@@ -241,17 +241,17 @@
      <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-8.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>GEOVANI RIVERA</h4>                    
-        <blockquote> <span style="font-size:35px">“</span> &nbsp; Pudimos bailar en nuestra boda, esto sin ustedes no hubiese sido posible, un sueño más cumplido, gracias a la academia y sus profesores .</blockquote>
+        <blockquote> <span style="font-size:35px">“</span> Pudimos bailar en nuestra boda, esto sin ustedes no hubiese sido posible, un sueño más cumplido, gracias a la academia y sus profesores <span style="font-size:35px">”</span>.</blockquote>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-5.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>HERNAN PALACIO</h4>  
-        <blockquote> <span style="font-size:35px">“</span> &nbsp;  Les agradezco mucho, me hicieron ver la música de una manera distinta , ver la música de esta forma es algo que me aporta mucho a la hora de estructurar una canción.</blockquote>   
+        <blockquote> <span style="font-size:35px">“</span> Les agradezco mucho, me hicieron ver la música de una manera distinta, ver la música de esta forma es algo que me aporta mucho a la hora de estructurar una canción <span style="font-size:35px">”</span>.</blockquote>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/caso-6.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>ANDREA BETANCOUR</h4>  
-        <blockquote> <span style="font-size:35px">“</span> &nbsp;  Excelente "Tu Clase de Baile" un vivo ejemplo de que la dedicación y el esfuerzo dan como resultado grandes logros.</blockquote> 
+        <blockquote> <span style="font-size:35px">“</span> Excelente "Tu Clase de Baile" un vivo ejemplo de que la dedicación y el esfuerzo dan como resultado grandes logros <span style="font-size:35px">”</span>.</blockquote> 
     </div>
   </div>
   </div> 
@@ -269,12 +269,12 @@
             <br>
             <h3>Este es tu momento</h3> 
 
-            <span>Verás que todos podemos aprender a bailar , podrás recibir clases grupales o personalizadas , con una metodología acorde para tu aprendizaje.</span>
+            <span>Verás que todos podemos aprender a bailar, podrás recibir clases grupales o personalizadas, con una metodología acorde para tu aprendizaje.</span>
             <br><br>
 
             <h3>¿Qué hacer para empezar?</h3> 
             
-            <span>Llena el formulario “empieza ya” y un asesor te llamará para explorar las clases ideales para ti, nuestras ofertas actuales y tus facilidades de pago. ¡Estás a solo un clic de tu primera clase de baile.</span>
+            <span>Llena el formulario “empieza ya” y un asesor te contactará para explorar las clases ideales para ti, nuestras ofertas actuales y tus facilidades de pago. ¡Estás a solo un clic de tu primera clase de baile.</span>
             <br><br>
 
             <a class="btn btn-rosado btn-lg text-uppercase subir">Empieza ya</a>

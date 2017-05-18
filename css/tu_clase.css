@@ -29,10 +29,6 @@ font-style: normal;
 /*margin-left: 20px;*/
 }
 
-ol,ul {
-  list-style:none;
-}
-
 .icon_a-asistencia:before { content: "\f100"; }
 .icon_a-bailar:before { content: "\f101"; }
 .icon_a-certificados:before { content: "\f102"; }

@@ -92,6 +92,14 @@ MyApp.config(function($routeProvider, $locationProvider) {
         templateUrl : 'view/registro/listo.php',
         controller : 'tuClaseDeBaileController'
     })
+    .when('/lideres-en-accion', {
+        templateUrl : 'view/lideres/inicio.php',
+        controller : 'tuClaseDeBaileController'
+    })
+    .when('/lideres-en-accion/empezar', {
+        templateUrl : 'view/lideres/empezar.php',
+        controller : 'tuClaseDeBaileController'
+    })
     .otherwise({
         redirectTo: '/'
     });

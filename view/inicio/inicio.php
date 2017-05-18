@@ -48,10 +48,7 @@
     </div><!--
     --><div class="col-md-6 vcenter text-center">
         <h3>APRENDE A BAILAR EN PAREJA DE FORMA FÁCIL</h3> 
-        <p>El baile se disfruta en pareja  y en Tu Clase de baile,
-		nos encanta enseñar los géneros que actualmente se encuentra de moda,
-		tales como, la Salsa Casino, Kizomba, bachata merengue dominicana entre otros,
-		con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos ….
+        <p>El baile se disfruta en pareja y en Tu Clase de Baile, nos encanta enseñar los géneros que actualmente se encuentra de moda, tales como la Salsa Casino, Kizomba, Bachata, Merengue Dominicano, entre otros, con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos.
 		</p>
     <br><br>
         <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">MÁS INFORMACIÓN</a>
@@ -102,21 +99,21 @@
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-1.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>Ediani Hernandez</h4>                    
-        <p>He competido en diversos eventos a nivel nacional y 
+        <p><span style="font-size:35px">“</span> He competido en diversos eventos a nivel nacional y 
 		en todos he tenido la oportunidad de  subirme  al pódium entre los primeros lugares, 
-		cada día que pasa quiero aprender más, he alcanzado mi sueño.</p>
+		cada día que pasa quiero aprender más, he alcanzado mi sueño <span style="font-size:35px">”</span>.</p>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-7.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>Daniel Bolivar</h4>  
-        <p> Cuando inicié en la Academia, wow jajaja estuve  algo nervioso, 
-		gracias a la atención y motivación de los profesores hoy en día puedo decir aprendí a bailar.</p>   
+        <p><span style="font-size:35px">“</span> Cuando inicié en la Academia, wow jajaja estuve  algo nervioso, 
+		gracias a la atención y motivación de los profesores hoy en día puedo decir aprendí a bailar <span style="font-size:35px">”</span>.</p>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/caso-3.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>Yenire Finol</h4>  
-        <p>Me inicié en la Academia, porque no sabía bailar, gracias a la atención de los profesores
-		he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada.</p> 
+        <p><span style="font-size:35px">“</span> Me inicié en la Academia, porque no sabía bailar, gracias a la atención de los profesores
+		he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada <span style="font-size:35px">”</span>.</p> 
     </div>
     <div class="col-md-12 text-center padding-top-40">        
             <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A BAILAR</a>        

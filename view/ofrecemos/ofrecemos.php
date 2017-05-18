@@ -87,7 +87,7 @@
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/iconos/disco.png" class="img-circle img-responsive img-center img-150" alt="">
         <h4>CLASES GRUPALES </h4>                    
-        <p>Con el plan de clases grupales, podrás disfrutar de diversos estilos, tales como, salsa casino, merengue bachata entre otros.</p>
+        <p>Con el plan de clases grupales, podrás disfrutar de diversos estilos, tales como Salsa Casino, Merengue, Bachata, entre otros.</p>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/iconos/bebe.png" class="img-circle img-responsive img-center img-150" alt="">
@@ -108,11 +108,7 @@
     <div class="row"> 
         <div class="col-md-12 text-center padding-top-10">            
             <h3 class="g">COMPAÑÍA DE BAILE</h3>
-            <p>Con una alta experiencia y un gran  nivel en escenarios, hemos formado a grandes bailadores 
-			en diversas áreas ,en especial Salsa Casino , así mismo en los géneros  Chachachá, Rumba Cubana,
-			mambo, son, afrocubano, comparsas, pachangas entre otros, nuestros talentos han compartido con 
-			artistas internacionales de alto renombre  en grandes escenarios , nos encantaría que puedas sumarte
-			e iniciar con esta nueva experiencia y lograr  acompañarnos en    en nuestra cuerpo  de baile 
+            <p>Con una alta experiencia y un gran nivel en escenarios, hemos formado a grandes bailadores en diversas áreas, en especial Salsa Casino, así mismo en los géneros Chachachá, Rumba Cubana, Mambo, Son, Afrocubano, Comparsas, pachangas, entre otros; nuestros talentos han compartido con artistas internacionales de alto renombre en grandes escenarios, nos encantaría que puedas sumarte e iniciar con esta nueva experiencia y lograr acompañarnos en nuestro cuerpo de baile.
             </p>
         </div>
         <div class="col-md-12 padding-top-20">
@@ -127,24 +123,18 @@
         <div id="ancho-41" class="col-md-5 text-center vcenter padding-top-10">            
             <h3>Tecnología en tus manos</h3>
             <p class="padding-bottom-10">
-                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar 
-				en una planificación y organización de altura, por esa razón en nuestra compañía de baile,
-				ponemos  a disposición para nuestros alumnos, la aplicación web Easy dance, 
-				en la que con un sólo clic podrás recibir múltiples beneficios, tales como : 
-
+                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición para nuestros alumnos la aplicación web Easy dance, en la que con un sólo clic podrás recibir múltiples beneficios, tales como : 
             </p>
 			<p class="padding-bottom-10">
 				<p><i class="fa fa-check color-azul"></i> Verificar sus notas .</p>
 				<p><i class="fa fa-check color-azul"></i> Envío de correos.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar asistencias.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar los estados de cuenta.</p>
-				<p><i class="fa fa-check color-azul"></i> Apartar clases particulares.</p>
+				<p><i class="fa fa-check color-azul"></i> Reservar clases particulares.</p>
 				<p><i class="fa fa-check color-azul"></i> Envío de notificaciones.</p>
 			</p>			
             <p class="padding-top-20" >
-                Deseamos darte lo mejor y en Mi clase de baile nos esmeramos en poderte brindar 
-				las herramientas de última tecnología, para que bailar en nuestra academia se 
-				convierta en más que una actividad física en una  experiencia de alto nivel. 
+                Deseamos darte lo mejor y en Tu Clase de Baile nos esmeramos en poderte brindar las herramientas de última tecnología, para que bailar en nuestra academia se convierta más que una actividad física en una experiencia de alto nivel.
             </p>
              <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A Bailar</a> 
         </div> 
@@ -154,60 +144,20 @@
     </div>       
    </div>
 </section>
-<!-- <section class="padding-top-bottom-50">
-   <div class="container">
-    <div class="row"> 
-        <div class="col-md-7 vcenter padding-top-10">
-            <img class="img-responsive w100" src="img/ofrecemos-4.jpg">
-        </div>   
-        <div id="ancho-41" class="col-md-5 text-center vcenter padding-top-10">   
-            <h3>EL MÉDICO DEL BAILE</h3>
-            <h4>Asistencia personalizada</h4>
-			<h3>CREAMOS EL DIAGNOSTICO DEL BAILE</h3>
-            <p class="padding-bottom-10">
-               Nuestros expertos a través de una  consulta privada  diagnosticarán tus avances
-			   y tal cual un médico especialista, te ofrecemos  las recetas para que puedas 
-			   librarte de la terrible enfermedad de sentir temor, pena o vergüenza por  no saber bailar.
-			   Los criterios que medimos son los siguientes : 
-
-            </p>
-			<p class="padding-bottom-20">
-				<p><i class="fa fa-check color-azul"></i> Diferenciación musical.</p>
-				<p><i class="fa fa-check color-azul"></i> Coordinación.</p>
-				<p><i class="fa fa-check color-azul"></i> Nivel de baile.</p>
-				<p><i class="fa fa-check color-azul"></i> Desplazamiento.</p>
-				<p><i class="fa fa-check color-azul"></i> Expresión corporal.</p>
-				<p><i class="fa fa-check color-azul"></i> Dominio de pareja.</p>
-			</p>
-            <p class="padding-top-20">
-                De esta forma el médico seguirá los pasos y tus avances, hasta haber culminado de manera exitosa con los objetivos propuestos.
-
-            </p>
-            
-        </div>
-    </div>       
-   </div>
-</section> -->
 <section class="padding-top-bottom-50">
    <div class="container">
     <div class="row">
         <div id="ancho-41" class="col-md-5 text-center vcenter padding-top-10">            
             <h3>Certificación</h3>
             <p>
-               Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo
-			   en  cada nivel superado , en nuestra academia de baile  los niveles corresponden  a la siguiente escala 
-			   Básico – intermedio / Intermedio – avanzado / Avanzado - Master
+               Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo en cada nivel superado, en nuestra academia de baile los niveles corresponden a la siguiente escala. Básico – Intermedio / Intermedio – Avanzado / Avanzado – Master.
 
             </p>            
             <p class="padding-top-20" >
-                De esta forma cada vez que nuestros alumnos culminan su nivelación, lo festejamos con una gran rumba,
-				llamada la certificación, acompañados de amigos, familiares y conocidos, hacemos de este agasajo un 
-				buen motivo para divertirnos a través de las fiestas.
+                De esta forma cada vez que nuestros alumnos culminan su nivelación, lo festejamos con una gran rumba, llamada la certificación, acompañados de amigos, familiares y conocidos, hacemos de este agasajo un buen motivo para divertirnos a través de las fiestas.
             </p>
 			<p class="padding-top-20" >
-                Todos los alumnos de esta forma deberán presentar su performance y demostrar lo que han aprendido, 
-				nuestros alumnos deben  ascender de nivel para lograr su certificación y de este modo obtener su 
-				respectiva  graduación
+                Todos los alumnos de esta forma deberán presentar su performance y demostrar lo que han aprendido, nuestros alumnos deben ascender de nivel para lograr su certificación y de este modo obtener su respectiva graduación.
             </p>
             <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A Bailar</a>
         </div> 
@@ -223,10 +173,10 @@
            <div class="col-md-12">
                <h3 class="text-center">EVENTOS</h3>
                <p class="text-center">
-                   Nos caracterizamos por crear grandes eventos de talla regional, nacional e  internacional, con una experiencia de montaje de grandes escenarios, bailarines de diversas partes de latino América y artistas de muy alta talla. Nuestra organización ha participado con orquestas de la talla de:
+                   Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con experiencia en montaje de grandes escenarios, bailarines de diversas partes de Latinoamérica y artistas de muy alta talla. Nuestra organización ha participado con orquestas de la talla de:
                </p>
 			   <p class="padding-top-20" >
-                El gran combo de puerto rico/ Dimensión latina/ La súper banda de Venezuela guaco/ Los adolecentes / Puppy y los que son son y Los Van Van / entre otros
+                El gran combo de puerto rico/ Dimensión latina/ La súper banda de Venezuela Guaco/ Los adolescentes / Puppy y los que son son /Los Van Van / entre otros.
             </p>
            </div>
                      
