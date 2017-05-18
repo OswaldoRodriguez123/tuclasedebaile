@@ -23,8 +23,6 @@
     </section>
 </div>
 
-<!--   <a id="scrollup" href="#" class="scroll-top pi-active" style="display: block;"><i class="tam-1-2 fa fa-chevron-up"></i></a>
- -->
   <div class="back-blanco padding-top-30 padding-bottom-30">
 
     <div class="row padding-60">

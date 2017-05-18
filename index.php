@@ -2,8 +2,8 @@
 <html lang="es" ng-app='MyApp' ng-controller="tuClaseDeBaileController" >
   <head>
       <title>Tu Clase de Baile</title>
-      <base href="/tuclasedebaile/" >
-<!--  <base href="http://tuclasedebaile.com.co/" > -->
+<!--       <base href="/tuclasedebaile/" > -->
+      <base href="http://tuclasedebaile.com.co/" >
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
@@ -66,7 +66,7 @@
       <script src="js/vendor/bootstrap-sweetalert/sweet-alert.js"></script>
       <script src="js/jquery-ui.min.js"></script>
       <script src="js/jquery.iconmenu.js"></script>
-<!--  <script src="js/function/default.js"></script> -->
+      <script src="js/function/default.js"></script>
 
       <!-- Facebook Pixel Code -->
       <script>
@@ -118,7 +118,7 @@
           <div class="row">
               <div class="col-md-12 padding-top-5 text-center">                  
                   <div class="padding-top-bottom-20">
-                    <a href="https://www.facebook.com/Mi-Clase-de-Baile-960537544002431/" target="_blank" ><img src="img/Facebook.png" class="img-circle img-center img-60"></a>
+                    <a href="https://www.facebook.com/Tuclasedebaileoficial/" target="_blank" ><img src="img/Facebook.png" class="img-circle img-center img-60"></a>
                     <!-- <a href="https://twitter.com/miclasedebaile1" target="_blank" ><img src="img/Twitter.png" class="img-circle img-center img-60"></a> -->
                     <a href="https://instagram.com/tuclasedebaileoficial/" target="_blank" ><img src="img/Instagram.png" class="img-circle img-center img-60"></a>
                     <!-- <a href="https://www.youtube.com/channel/UC91HkwzEv66vHVMZ0xX2wQw" target="_blank" ><img src="img/Youtube.png" class="img-circle img-center img-60"></a> -->
