@@ -250,7 +250,7 @@
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/caso-6.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>ANDREA BETANCOUR</h4>  
+        <h4>ANDREA BETANCUR</h4>  
         <blockquote> <span style="font-size:35px">“</span> Excelente "Tu Clase de Baile" un vivo ejemplo de que la dedicación y el esfuerzo dan como resultado grandes logros <span style="font-size:35px">”</span>.</blockquote> 
     </div>
   </div>

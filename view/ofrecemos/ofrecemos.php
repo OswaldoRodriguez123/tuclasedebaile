@@ -123,10 +123,10 @@
         <div id="ancho-41" class="col-md-5 text-center vcenter padding-top-10">            
             <h3>Tecnología en tus manos</h3>
             <p class="padding-bottom-10">
-                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición para nuestros alumnos la aplicación web Easy dance, en la que con un sólo clic podrás recibir múltiples beneficios, tales como : 
+                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición para nuestros alumnos la aplicación web Easy Dance, en la que con un sólo clic podrás recibir múltiples beneficios, tales como : 
             </p>
 			<p class="padding-bottom-10">
-				<p><i class="fa fa-check color-azul"></i> Verificar sus notas .</p>
+				<p><i class="fa fa-check color-azul"></i> Verificar sus notas.</p>
 				<p><i class="fa fa-check color-azul"></i> Envío de correos.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar asistencias.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar los estados de cuenta.</p>
