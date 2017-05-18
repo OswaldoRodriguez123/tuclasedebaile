@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="es" ng-app='MyApp' ng-controller="tuClaseDeBaileController" >
   <head>
-      <title>Tu Clase de Baile!</title>
+      <title>Tu Clase de Baile</title>
+      <base href="/tuclasedebaile/" >
+<!--  <base href="http://tuclasedebaile.com.co/" > -->
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
       <meta charset="utf-8" >
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta property="og:title" content="MÁS DE DIEZ AÑOS DE EXPERIENCIA NOS AVALAN | Tu Clase de Baile!" />
       <meta property="og:description" content="Tu Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO Y BACHATA!" />
       <meta name="description" content="Tu Clase de Baile, ¡APRENDE A BAILAR SALSA CASINO Y BACHATA!" />
       <meta property="og:image" content="" />
-      <link rel="shortcut icon" type="image/x-icon" href=""/>
-      <base href="/tuclasedebaile/" >
-<!--       <base href="http://tuclasedebaile.com.co/" > -->
-      <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-      <link href="css/fontawesome/font-awesome.min.css" rel="stylesheet">
-      <link href="css/angular-load/loading-bar.min.css" rel="stylesheet">
-      <link href="css/main/main.css" rel="stylesheet">    
+      <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+      <link rel="manifest" href="/img/favicon/manifest.json">
+      <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+      <link rel="stylesheet" href="css/fontawesome/font-awesome.min.css">
+      <link rel="stylesheet" href="css/angular-load/loading-bar.min.css">
+      <link rel="stylesheet" href="css/main/main.css">    
       <link rel="stylesheet" href="css/bootstrap-sweetalert/sweet-alert.css">
-      <link href="css/tu_clase.css" rel="stylesheet">
-      <link href="css/css_filter.css" rel="stylesheet">
-  <!--     <link href="css/app.min.1.css" rel="stylesheet"> -->
-      <link href="css/animate.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/tu_clase.css">
+      <link rel="stylesheet" href="css/css_filter.css">
+      <link rel="stylesheet" href="css/animate.min.css">
       <link rel="stylesheet" type="text/css" href="css/stylew.css" />
-      <link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+      <link rel="stylesheet" type="text/css" href="css/stimenu.css" /> 
+<!--  <link href="css/app.min.1.css" rel="stylesheet"> -->
 
 
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -47,10 +63,10 @@
       <script src="js/function/function.js"></script>
       <script src="js/input-mask/input-mask.min.js"></script>
       <script src="js/vendor/bootstrap/bootstrap.min.js"></script>    
-     <!--  <script src="js/function/default.js"></script> -->
       <script src="js/vendor/bootstrap-sweetalert/sweet-alert.js"></script>
-      <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-      <script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/jquery.iconmenu.js"></script>
+<!--  <script src="js/function/default.js"></script> -->
 
       <!-- Facebook Pixel Code -->
       <script>
@@ -85,9 +101,7 @@
           <ul class="nav navbar-nav">
             <li style="padding-left: 50px"><a href="#/"> <span style="color:#3E93CC; font-size:20px;"> Tu Clase de Baile</span></a></li>
             <li><a href="#/ofrecemos" ng-class="getClass('/ofrecemos')"> <span style="color:#3E93CC; font-size:20px"> Ofrecemos</span></a></li>
-
             <li><a href="https://tuclasedebaile.wordpress.com/"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li>
-
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
             <li><a href="#/nosotros" ng-class="getClass('/nosotros')" > <span style="color:#3E93CC; font-size:20px"> Nosotros</span></a></li>
             <li><a href="#/lideres-en-accion" ng-class="getClass('/lideres-en-accion')" > <span style="color:#3E93CC; font-size:20px"> Lideres en Acción</span></a></li>
@@ -98,13 +112,7 @@
     </nav>
 
     <a href="#" class="scroll-top pi-active"><i class="tam-1-2 fa fa-chevron-up"></i></a>
-    <!--<div class="container">
-    <div class="row">                
-        <div class="col-lg-12">-->
     <div ng-view></div>
-        <!--</div>                
-    </div>
-    </div>-->
     <footer class="fondo-grey-darken-4 padding-top-bottom-50">
         <div class="container">
           <div class="row">
