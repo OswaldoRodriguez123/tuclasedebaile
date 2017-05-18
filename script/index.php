@@ -1,4 +1,4 @@
 <?php
- header("location: http://easydancelatino.com")
+ header("location: http://tuclasedebaile.com.co")
 ?>
 

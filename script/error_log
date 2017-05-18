@@ -13275,3 +13275,72 @@ sendmail_path = /usr/sbin/sendmail -t -i
 [26-Feb-2016 12:09:42 America/Caracas] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/robert7/public_html/class/class_db_interesado.php on line 55
 [26-Feb-2016 12:09:42 America/Caracas] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home/robert7/public_html/class/class_db_interesado.php on line 56
 [26-Feb-2016 12:10:50 America/Caracas] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home/robert7/public_html/class/class_db_interesado.php on line 56
+[11-Aug-2016 16:36:38 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[11-Aug-2016 16:42:29 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[11-Aug-2016 21:49:34 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 18:15:57 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 20:23:31 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 21:20:54 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 22:09:11 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 22:31:19 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 22:33:13 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[12-Aug-2016 22:36:58 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[13-Aug-2016 09:57:18 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[13-Aug-2016 13:39:37 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[15-Aug-2016 10:55:13 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[16-Aug-2016 08:21:42 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[16-Aug-2016 08:24:25 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[17-Aug-2016 11:23:29 America/Caracas] PHP Notice:  Use of undefined constant para - assumed 'para' in /home/robert7/public_html/script/interesado.php on line 529
+[17-Aug-2016 11:36:27 America/Caracas] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING) in /home/robert7/public_html/script/interesado.php on line 627
+[17-Aug-2016 11:38:15 America/Caracas] PHP Parse error:  syntax error, unexpected 'Helvetica' (T_STRING) in /home/robert7/public_html/script/interesado.php on line 627
+[17-Aug-2016 14:23:29 America/Caracas] PHP Parse error:  syntax error, unexpected '$cabeceras' (T_VARIABLE) in /home/robert7/public_html/script/correo.php on line 240
+[17-Aug-2016 14:25:23 America/Caracas] PHP Parse error:  syntax error, unexpected '$cabeceras' (T_VARIABLE) in /home/robert7/public_html/script/correo.php on line 240
+[30-Aug-2016 15:51:18 America/Caracas] PHP Notice:  Undefined index: region in /home/robert7/public_html/class/class_db_interesado.php on line 18
+[30-Aug-2016 15:51:18 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 336
+[30-Aug-2016 15:53:33 America/Caracas] PHP Notice:  Undefined index: region in /home/robert7/public_html/class/class_db_interesado.php on line 18
+[30-Aug-2016 15:53:33 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 336
+[30-Aug-2016 15:55:56 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 15:56:19 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:03:27 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:04:24 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:04:24 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:04:59 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:04:59 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:05:13 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:05:13 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:11:11 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:11:11 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:13:29 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:13:29 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 338
+[30-Aug-2016 16:14:22 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:14:22 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 338
+[30-Aug-2016 16:15:39 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:15:39 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 338
+[30-Aug-2016 16:16:25 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:16:25 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 339
+[30-Aug-2016 16:17:59 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:17:59 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 339
+[30-Aug-2016 16:18:46 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:18:46 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 339
+[30-Aug-2016 16:21:19 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 26
+[30-Aug-2016 16:21:19 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:29:20 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 27
+[30-Aug-2016 16:29:20 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[30-Aug-2016 16:35:14 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 27
+[30-Aug-2016 16:35:14 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 337
+[06-Sep-2016 20:53:14 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 28
+[06-Sep-2016 20:53:14 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 335
+[06-Sep-2016 21:08:40 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 27
+[06-Sep-2016 21:08:40 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 335
+[06-Sep-2016 21:10:12 America/Caracas] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/robert7/public_html/class/class_db_interesado.php on line 28
+[06-Sep-2016 21:10:12 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/interesado.php on line 335
+[31-Oct-2016 13:13:35 America/Caracas] PHP Parse error:  syntax error, unexpected '}' in /home/robert7/public_html/script/interesado.php on line 345
+[01-Nov-2016 18:14:02 America/Caracas] PHP Fatal error:  Call to undefined method DBInteresado::verificar_correo_aliado() in /home/robert7/public_html/script/aliado.php on line 17
+[30-Jan-2017 11:24:38 America/Caracas] PHP Notice:  Undefined index: apellido in /home/robert7/public_html/class/class_db_interesado.php on line 87
+[30-Jan-2017 11:24:38 America/Caracas] PHP Notice:  Undefined index: pais in /home/robert7/public_html/class/class_db_interesado.php on line 88
+[30-Jan-2017 11:24:38 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/registro.php on line 41
+[30-Jan-2017 11:26:51 America/Caracas] PHP Notice:  Undefined index: entero in /home/robert7/public_html/class/class_db_interesado.php on line 53
+[30-Jan-2017 11:26:51 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/registro.php on line 41
+[30-Jan-2017 11:26:58 America/Caracas] PHP Notice:  Undefined index: entero in /home/robert7/public_html/class/class_db_interesado.php on line 53
+[30-Jan-2017 11:26:58 America/Caracas] PHP Warning:  Illegal string offset 'mensaje' in /home/robert7/public_html/script/registro.php on line 41
+[30-Jan-2017 11:30:06 America/Caracas] PHP Fatal error:  Cannot pass parameter 12 by reference in /home/robert7/public_html/class/class_db_interesado.php on line 63

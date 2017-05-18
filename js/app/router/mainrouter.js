@@ -45,7 +45,7 @@ MyApp.config(function($routeProvider, $locationProvider) {
         controller : 'tuClaseDeBaileController'
     })
     .when('/nosotros', {
-        templateUrl : 'view/nosotros/nosotros.php',
+        templateUrl : 'view/nosotros/inicio.php',
         controller : 'tuClaseDeBaileController'
     })
     .when('/noticias', {
@@ -74,6 +74,22 @@ MyApp.config(function($routeProvider, $locationProvider) {
     })
     .when('/registro', {
         templateUrl : 'view/inicio/inicio.php',
+        controller : 'tuClaseDeBaileController'
+    })
+    .when('/aliados', {
+        templateUrl : 'view/aliados/aliados.php',
+        controller : 'tuClaseDeBaileController'
+    })
+    .when('/aliados/listo', {
+        templateUrl : 'view/aliados/listo.php',
+        controller : 'tuClaseDeBaileController'
+    })
+    .when('/registro', {
+        templateUrl : 'view/registro/empezar.php',
+        controller : 'tuClaseDeBaileController'
+    })
+    .when('/registro/listo', {
+        templateUrl : 'view/registro/listo.php',
         controller : 'tuClaseDeBaileController'
     })
     .otherwise({

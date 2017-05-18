@@ -95,6 +95,15 @@ a:hover, a:active, a:focus {
    color: #fff;
 }
 
+.banner_arriba_registro{
+    min-height: 428px;
+/*    height: 500px;*/
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    background: #273333 url("../../img/imagenes_nuevas/registro_arriba.jpg") no-repeat scroll 50% center;
+   color: #fff;
+}
+
 .banner_abajo{
     min-height: 428px;
     height: 500px;
@@ -189,6 +198,24 @@ a:hover, a:active, a:focus {
     padding-bottom: 4.5rem;
     background: #273333 url("../../img/grupo-energia.jpg") no-repeat scroll 30% center;
 	color: #fff;   
+}
+
+.banner-postularse{
+    min-height: 475px;
+/*    height: 500px;*/
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    background: #273333 url("../../img/postularse-principal.jpg") no-repeat scroll 30% center;
+   color: #fff;
+}
+
+.imagen-postularse{
+    max-width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background: #273333 url("../../img/postularse-principal.jpg") no-repeat scroll 30% center;
+   color: #fff;
 }
 h1,h2,h3,h4,h5{
     font-weight: bold !important;
@@ -1484,6 +1511,22 @@ button._share._twitter {
   }
 }
 
+@media (max-width: 991px){
+  .banner_arriba_registro {
+      background-image: none;
+      min-height: 0;
+      background-color: #ecf0f1;
+  }
+}
+
+@media (max-width: 991px){
+  .banner-postularse {
+      background-image: none;
+      min-height: 0;
+      background-color: #ecf0f1;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 100%;
@@ -1533,4 +1576,60 @@ button._share._twitter {
   max-width: 120%;
   height: auto !important;
 
+}
+.text_header_aliados{
+  min-height: 450px; 
+  margin-left:34%; 
+  padding-right:0px; 
+  width: 36%;
+}
+
+.div_nosotros{
+    text-align: center;
+}
+
+.descripcion_nosotros {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 15px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.descripcion_nosotros_azul{
+    background: rgba(29, 106, 154, 0.72);
+}
+
+
+.descripcion_nosotros_rosado{
+    background: rgba(255, 20, 147, 0.72);
+}
+
+.div_nosotros:hover .descripcion_nosotros {
+  visibility: visible;
+  opacity: 1;
+}
+
+.social_nosotros{
+  position: absolute;
+  bottom: 10%;
+  right:25%;
+  left:25%;
+}
+
+.social_nosotros i{
+   color:white;
+   font-size:25px
+}
+
+.imagen_nosotros{
+  max-height: 400px
 }

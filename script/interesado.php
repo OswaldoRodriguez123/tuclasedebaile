@@ -48,8 +48,7 @@ class Interesado
                 $cargo=$vLimpiar->process($cargo);*/
 
                 if(!empty($correo) && !empty($clave)  && !empty($nombre)  && !empty($apellido) &&
-                    !empty($telefono) && !empty($cargo) && !empty($academia) && !empty($direccion) &&
-                    !empty($telefono_local)  && !empty($telefono_movil) && !empty($pais) && !empty($estado) &&
+                    !empty($telefono) && !empty($cargo) && !empty($academia) && !empty($direccion) && !empty($telefono_movil) && !empty($pais) && !empty($estado) &&
                     !empty($entero) && !empty($region)){
 
                     print_r($_POST);
@@ -300,21 +299,21 @@ class Interesado
                     //print_r($_POST);
 require_once ('../class/class_db_interesado.php');
 $DBInteresado = new DBInteresado();
-$status=$DBInteresado->verificar_correo($correo);
+// $status=$DBInteresado->verificar_correo($correo);
 
 
 
         $arraydata=array();
-        if(count($status)>0){
+        // if(count($status)>0){
 
-                         $arraydata=array("estado"=>"duplicado", "mensaje"=>"duplicado" );
+        //                  $arraydata=array("estado"=>"duplicado", "mensaje"=>"duplicado" );
 
-             header('Content-type: application/json; charset=utf-8');
+        //      header('Content-type: application/json; charset=utf-8');
 
-                         echo json_encode($arraydata);
+        //                  echo json_encode($arraydata);
 
-                         exit();
-        }else{
+        //                  exit();
+        // }else{
 
                     //$clave = base64_encode($clave);
                     $data=array('correo'=>$correo, 'nombre'=>$nombre, 'telefono_local'=>$telefono_local, 'telefono_movil'=>$telefono_movil, 'entero'=>$entero, 'region'=>$region, 'sexo'=>$sexo);
@@ -335,6 +334,24 @@ $status=$DBInteresado->verificar_correo($correo);
                     if($status['mensaje']=="agregado" && $envio==true){
                         $arraydata=array("estado"=>"bien", "mensaje"=>"Se ha agregado satisfactoriamente" );
                          $para=$correo;
+
+                         if($region == 1){
+                            $sede = 'tuclasedebaileoficial@gmail.com';
+                            $numero = '350 886 0474';
+                         }else if($region == 2){
+                            $sede = 'tuclasedebailemaicao@gmail.com';
+                            $numero = '304 623 03 81';
+                         }else if($region == 3){
+                            $sede = 'helmer.morcillo@cfcya.co';
+                            $numero = '313 737 1279';
+                         }else if($region == 4){
+                            $sede = 'dainerv17@hotmail.com';
+                            $numero = '300 645 4271';
+                         }else{
+                            $sede = 'henryfuenmayor13@gmail.com';
+                            $numero = '300 645 4271';
+                         }
+
                          $de='tuclasedebaileoficial@gmail.com';
                          $asunto='Registro tu clase de baile';
                          $asunto_cliente='Información tu clase de baile';
@@ -688,7 +705,7 @@ $status=$DBInteresado->verificar_correo($correo);
                         $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
                         $cabeceras .= 'Content-type: text/html; charset=utf-8' . "\r\n";
                         // Cabeceras adicionales
-                        $cabeceras .= 'To: TuClaseDeBaile '.' <'.$de.'>' . "\r\n";
+                        $cabeceras .= 'To: TuClaseDeBaile '.' <'.$sede.'>' . "\r\n";
                         $cabeceras .= 'From: Tu Clase de Baile <'.$de.'>' . "\r\n";
                         $cabeceras .= 'Bcc: '.$copia.' ' . "\r\n";
 
@@ -750,7 +767,7 @@ $status=$DBInteresado->verificar_correo($correo);
                           </tr>
 
                           <tr>
-                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.easydancelatino.com/img/logo.png" width="120">
+                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/logo.png" width="120">
                             </td>
                           </tr>
 
@@ -761,7 +778,7 @@ $status=$DBInteresado->verificar_correo($correo);
 
 
                           <tr>
-                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://oi65.tinypic.com/otf8s5.jpg" height="200" width="500">
+                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/correo_principal.jpg" height="200" width="500">
                             </td>
                           </tr>
 
@@ -799,7 +816,7 @@ $status=$DBInteresado->verificar_correo($correo);
 
                               <td align="center" valign="top" style="width:50%">
 
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.easydancelatino.com/img/ofrecemos-3.jpg" style="width:100%; height:230px">
+                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/tecnologia.jpg" style="width:100%; height:230px">
                               </td>
                           </tr><!-- FINAL PRIMERA IMAGEN -->
 
@@ -814,7 +831,7 @@ $status=$DBInteresado->verificar_correo($correo);
 
                             <td valign="top" style="width:50%">
 
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.easydancelatino.com/img/ofrecemos-5.jpg" style="width:100%; height:230px">
+                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/certificacion.jpg" style="width:100%; height:230px">
                               </td>
 
                             <td align="right" valign="top" style="width:50%">
@@ -846,7 +863,7 @@ $status=$DBInteresado->verificar_correo($correo);
 
                               <td valign="top" style="width:50%">
 
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://oi65.tinypic.com/fyh215.jpg" style="width:100%; height:230px">
+                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/eventos.jpg" style="width:100%; height:230px">
                               </td>
                           </tr> <!-- FINAL TERCERA IMAGEN -->
 
@@ -867,7 +884,7 @@ $status=$DBInteresado->verificar_correo($correo);
                           <span style="padding-bottom:10px; font-weight:bold">Tenemos mucho que ofrecerte</span>
 
                           <font style="font-size:13px;color:#000000;  text-align:justify">
-                          <p style="padding-right:20px; line-height:22px">Espera una  llamada informativa, de nuestro asesor de servicios , en un lapso no mayor a 72 horas nos comunicaremos contigo, o si prefieres puedes comunicarte a través de una llamada telefónica al 350 886 0474 y con gusto te atenderemos. </p></font>
+                          <p style="padding-right:20px; line-height:22px">Espera una  llamada informativa, de nuestro asesor de servicios , en un lapso no mayor a 72 horas nos comunicaremos contigo, o si prefieres puedes comunicarte a través de una llamada telefónica al '.$numero.' y con gusto te atenderemos. </p></font>
 
                           <span style="padding-bottom:10px; font-weight:bold">Importante</span>
 
@@ -902,7 +919,7 @@ $status=$DBInteresado->verificar_correo($correo);
                                     <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-leftspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
                                 </td>
                                 <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
-                                    <a href="http://tuclasedebaile.com.co/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://oi65.tinypic.com/2ewfspf.jpg" style="width:104px;max-height:57px" border="0"></a>
+                                    <a href="http://tuclasedebaile.com.co/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/footer.jpg" style="width:104px;max-height:57px" border="0"></a>
                                 </td>
                                 <td style="font-size:1px;height:57px;line-height:1px;width:277px" height="57" valign="top" width="277">
                                     <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-middlespacer@2x.png?v=2" style="width:277px;min-height:57px" border="0">
@@ -978,7 +995,7 @@ $status=$DBInteresado->verificar_correo($correo);
                     }else{
                         $arraydata=array("estado"=>"mal", "mensaje"=>"ha ocurrido un error no se ha ejecutado la operacion");
                     }
-                  }
+                  // }
                 }else{
                     $arraydata=array("estado"=>"mal", "mensaje"=>"Los campos se encuentra vacios");
                 }

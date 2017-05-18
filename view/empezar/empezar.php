@@ -115,28 +115,27 @@
                                         <span ng-show="ComoNosConocisteRequired">{{ComoNosConocisteRequired}}</span>
                                  </div>
 
-                                 <br>
+                                <br>
 
 
 
-                                    <div class="col-sm-12">
-                                          <div class="form-group">
-                                                <div class="fg-line">
-                                                  <div class="select">
-                                                      <select class="form-control" id="region" name="region" placeholder="Seleccione>>" ng-model="formInfo.Region">
-                                                      <option value="">Risaralda (Region donde reside)</option>
-                                                      <option value="1">Pereira</option>
-                                                      <option value="2">Dos quebradas</option>
-                                                      <option value="3">Cuba</option>
-                                                      </select>
-                                                </div>
-                                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <div class="fg-line">
+                                          <div class="select">
+                                              <select class="form-control" id="region" name="region" placeholder="Seleccione>>" ng-model="formInfo.Region">
+                                                  <option value="">Region / Ubicacion</option>
+                                                  <option value="1">Pereira - Sede Centro</option>
+                                                  <option value="3">Pereira - Sede Circunvalar</option>
+                                              </select>
+                                            </div>
+                                        </div>
 
                                     </div>
-                                        <span ng-show="RegionRequired">{{RegionRequired}}</span>
-                                 </div>
+                                    <span ng-show="RegionRequired">{{RegionRequired}}</span>
+                                </div>
 
-                                 <br>
+                                <br>
 
                                     <div class="col-sm-12 ">
 
