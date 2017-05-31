@@ -256,7 +256,7 @@
         <div class="text-left">
           <p class="f-700">
             <span class="f-25">¿Cómo obtener puntos?</span> <br>
-            <span class="f-22">Nuestros alumnos cuentan con 6 formas de ganar puntos en el programa de líderes en acción</span>
+            <span class="f-22">Nuestros alumnos cuentan con 6 formas de ganar puntos en el programa de líderes en acción.</span>
           </p>
         </div>
 

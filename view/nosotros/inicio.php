@@ -51,7 +51,7 @@
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/valores_2.png" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>Proceso de mejoramiento continuo</h4>  
-        <p>La planificación, la ejecución, la supervisión y la reestructuración es la guía fundamental que nos impulsa a mejorar nuestros servicios y productos.</p>   
+        <p>La planificación, la ejecución, la supervisión y la reestructuración son la guía fundamental que nos impulsa a mejorar nuestros servicios y productos.</p>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/valores_3.png" class="img-circle img-responsive img-center img-150" alt="" >
@@ -250,7 +250,7 @@
           <span class="descripcion_nosotros descripcion_nosotros_azul">
               <div class="clearfix padding-top-30"></div>
               <span class="padding-20">
-                <b>Juan Carlos Chirinos- Producto audio visual</b><br><br>
+                <b>Juan Carlos Chirinos - Productor audio visual</b><br><br>
 
                 Es el desarrollador de contenidos para los medios de comunicación visual y demás canales que poseemos en nuestra organización. 
               </span>

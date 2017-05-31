@@ -49,7 +49,7 @@
 	    <div class="list-icon margin-right-30 text-center icono" >
                 <div class="icono-inicio-p">
 		    <i class="icon_a-clases-personalizadas" style="font-size:50px"></i>
-                    <p><span class="hidden-xs">Clases</span> Personalizada</p>
+                    <p><span class="hidden-xs">Clases</span> Personalizadas</p>
 		</div>
             </div>
 	    <div class="list-icon margin-right-30 text-center icono" >
@@ -59,16 +59,22 @@
 		</div>
             </div>
 	    <div class="list-icon margin-right-30 text-center icono" >
-                <div class="icono-inicio-p">
-		    <i class="icon_a-compania-de-baile" style="font-size:50px"></i>
-                    <p>Compañia <span class="hidden-xs">de baile</span></p>
-		</div>
+            <div class="icono-inicio-p">
+    		    <i class="icon_a-compania-de-baile" style="font-size:50px"></i>
+                <p>Compañia <span class="hidden-xs">de baile</span></p>
             </div>
+        </div>
 	    <div class="list-icon margin-right-30 text-center icono" >
                 <div class="icono-inicio-p">
 		    <i class="icon_a-certificados" style="font-size:50px"></i>
 		    <p>Certificación</p>
 		</div>
+            </div>
+        <div class="list-icon margin-right-30 text-center icono" >
+                <div class="icono-inicio-p">
+            <i class="icon_a-invitados-especiales" style="font-size:50px"></i>
+            <p>Invitados Especiales</p>
+        </div>
             </div>
 			<!--
             <hr>
@@ -108,7 +114,7 @@
     <div class="row"> 
         <div class="col-md-12 text-center padding-top-10">            
             <h3 class="g">COMPAÑÍA DE BAILE</h3>
-            <p>Con una alta experiencia y un gran nivel en escenarios, hemos formado a grandes bailadores en diversas áreas, en especial Salsa Casino, así mismo en los géneros Chachachá, Rumba Cubana, Mambo, Son, Afrocubano, Comparsas, pachangas, entre otros; nuestros talentos han compartido con artistas internacionales de alto renombre en grandes escenarios, nos encantaría que puedas sumarte e iniciar con esta nueva experiencia y lograr acompañarnos en nuestro cuerpo de baile.
+            <p>Con una alta experiencia y un gran nivel en escenarios, hemos formado a grandes bailadores en diversas áreas, en especial Salsa Casino, así mismo en los géneros Chachachá, Rumba Cubana, Mambo, Son, Afrocubano, Comparsas, Pachangas, entre otros; nuestros talentos han compartido con artistas internacionales de alto renombre en grandes escenarios, nos encantaría que puedas sumarte e iniciar con esta nueva experiencia y lograr acompañarnos en nuestro cuerpo de baile.
             </p>
         </div>
         <div class="col-md-12 padding-top-20">
@@ -123,10 +129,10 @@
         <div id="ancho-41" class="col-md-5 text-center vcenter padding-top-10">            
             <h3>Tecnología en tus manos</h3>
             <p class="padding-bottom-10">
-                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición para nuestros alumnos la aplicación web Easy Dance, en la que con un sólo clic podrás recibir múltiples beneficios, tales como : 
+                Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición de nuestros alumnos la aplicación web Easy Dance, en la que con un sólo clic podrás recibir múltiples beneficios, tales como: 
             </p>
 			<p class="padding-bottom-10">
-				<p><i class="fa fa-check color-azul"></i> Verificar sus notas.</p>
+				<p><i class="fa fa-check color-azul"></i> Verificar tus notas.</p>
 				<p><i class="fa fa-check color-azul"></i> Envío de correos.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar asistencias.</p>
 				<p><i class="fa fa-check color-azul"></i> Revisar los estados de cuenta.</p>

@@ -127,6 +127,7 @@
                                                           <option value="">Región / Ubicación</option>
                                                           <option value="1">Pereira - Sede Centro</option>
                                                           <option value="3">Pereira - Sede Circunvalar</option>
+                                                          <option value="2">Sucursal, Venezuela - Maracaibo</option>
                                                       </select>
                                                     </div>
                                                 </div>
@@ -187,7 +188,7 @@
     <div class="col-md-12 vcenter text-center">
         <h3>NUESTRAS VENTAJAS</h3> 
         <br>
-        <h3>CON MÁS DE 10 AÑOS DE EXPERIENCIA HEMOS AYUDADOS A MILES DE ALUMNOS A LOGRAR SUS OBJETIVOS</h3> 
+        <h3>CON MÁS DE 10 AÑOS DE EXPERIENCIA HEMOS AYUDADO A MILES DE ALUMNOS A LOGRAR SUS OBJETIVOS</h3> 
 
         <br>
         <!-- <div class="text-left">
@@ -208,7 +209,7 @@
     <div class="col-md-3 padding-top-bottom-20 text-center">
         <img src="img/ic_certificado.png" class="img-circle img-responsive img-center img-150" alt="" > 
         <br>             
-        <span> Reconocemos el esfuerzo de nuestros alumnos, por lo tanto le otorgamos títulos de certificación </span>
+        <span> Reconocemos el esfuerzo de nuestros alumnos, por lo tanto les otorgamos títulos de certificación </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
@@ -269,12 +270,12 @@
             <br>
             <h3>Este es tu momento</h3> 
 
-            <span>Verás que todos podemos aprender a bailar, podrás recibir clases grupales o personalizadas, con una metodología acorde para tu aprendizaje.</span>
+            <span>Verás que todos podemos aprender a bailar, podrás recibir clases grupales o personalizadas, con una metodología acorde a un aprendizaje exitoso.</span>
             <br><br>
 
             <h3>¿Qué hacer para empezar?</h3> 
             
-            <span>Llena el formulario “empieza ya” y un asesor te contactará para explorar las clases ideales para ti, nuestras ofertas actuales y tus facilidades de pago. ¡Estás a solo un clic de tu primera clase de baile.</span>
+            <span>Llena el formulario “empieza ya” y un asesor te contactará para explorar las clases ideales para ti, nuestras ofertas actuales y tus facilidades de pago. ¡Estás a solo un clic de tu primera clase de baile!.</span>
             <br><br>
 
             <a class="btn btn-rosado btn-lg text-uppercase subir">Empieza ya</a>

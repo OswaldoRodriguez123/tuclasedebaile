@@ -339,18 +339,32 @@ $DBInteresado = new DBInteresado();
                             $sede = 'tuclasedebaileoficial@gmail.com';
                             $numero = '350 886 0474';
                          }else if($region == 2){
-                            $sede = 'tuclasedebailemaicao@gmail.com';
-                            $numero = '304 623 03 81';
+                            $sede = 'tuclasedebailevzla@gmail.com';
+                            $numero = '04246352596 / 04146215928';
                          }else if($region == 3){
                             $sede = 'helmer.morcillo@cfcya.co';
                             $numero = '313 737 1279';
-                         }else if($region == 4){
-                            $sede = 'dainerv17@hotmail.com';
-                            $numero = '300 645 4271';
                          }else{
                             $sede = 'henryfuenmayor13@gmail.com';
                             $numero = '300 645 4271';
                          }
+
+                         // if($region == 1){
+                         //    $sede = 'tuclasedebaileoficial@gmail.com';
+                         //    $numero = '350 886 0474';
+                         // }else if($region == 2){
+                         //    $sede = 'tuclasedebailemaicao@gmail.com';
+                         //    $numero = '304 623 03 81';
+                         // }else if($region == 3){
+                         //    $sede = 'helmer.morcillo@cfcya.co';
+                         //    $numero = '313 737 1279';
+                         // }else if($region == 4){
+                         //    $sede = 'dainerv17@hotmail.com';
+                         //    $numero = '300 645 4271';
+                         // }else{
+                         //    $sede = 'henryfuenmayor13@gmail.com';
+                         //    $numero = '300 645 4271';
+                         // }
 
                          $de='tuclasedebaileoficial@gmail.com';
                          $asunto='Registro tu clase de baile';
