@@ -5,7 +5,7 @@
                 <div class="row">
                 <br>
                     <div class="col-md-12 text-center" style="padding-top:100px">    
-                        <h2 class="text-center">¡APRENDE A BAILAR SALSA CASINO DESDE CERO!</h2>
+                        <h2 class="text-center">¡APRENDE A BAILAR DESDE CERO!</h2>
                         <a href="#/empezar" class="btn btn-blanco-grande btn-lg text-uppercase">Empieza Ya</a>        
                     </div>
                 </div>
@@ -43,23 +43,19 @@
             <div class="row">
                 <h3 class="text-center">CASOS DE ÉXITO</h3>  
                     <div class="col-md-4 padding-top-bottom-20 text-center">
-                    <img src="img/caso-1.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-                    <h4>Ediani Hernandez</h4>                    
-                    <p><span style="font-size:35px">“</span> He competido en diversos eventos a nivel nacional y 
-            		en todos he tenido la oportunidad de  subirme  al pódium entre los primeros lugares, 
-            		cada día que pasa quiero aprender más, he alcanzado mi sueño <span style="font-size:35px">”</span>.</p>
+                    <img src="img/caso-9.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+                    <h4>LINA BEDOYA</h4>                    
+                    <p><span style="font-size:35px">“</span> Ha sido una experiencia maravillosa. Cada vez me siento más a gusto en la academia, comparto con mi familia y espero seguir aprendiendo cada día más. Es lo máximo! <span style="font-size:35px">”</span>.</p>
                 </div>
                 <div class="col-md-4 padding-top-bottom-20 text-center">
-                    <img src="img/caso-7.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-                    <h4>Daniel Bolivar</h4>  
-                    <p><span style="font-size:35px">“</span> Cuando inicié en la Academia, wow jajaja estuve  algo nervioso, 
-            		gracias a la atención y motivación de los profesores hoy en día puedo decir aprendí a bailar <span style="font-size:35px">”</span>.</p>   
+                    <img src="img/caso-10.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+                    <h4>JUAN ESTEBAN</h4>  
+                    <p><span style="font-size:35px">“</span> Estoy muy contento con Tu Clase de Baile, porque gracias a ellos he aprendido a bailar, y eso es algo muy importante, puedo disfrutar de una fiesta sin problemas. Logré lo que quería! <span style="font-size:35px">”</span>.</p>   
                 </div>
                 <div class="col-md-4 padding-top-bottom-20 text-center ">
-                    <img src="img/caso-3.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-                    <h4>Yenire Finol</h4>  
-                    <p><span style="font-size:35px">“</span> Me inicié en la Academia, porque no sabía bailar, gracias a la atención de los profesores
-            		he hecho mi sueño realidad, debido a esto en las fiestas no me la paso sentada <span style="font-size:35px">”</span>.</p> 
+                    <img src="img/caso-11.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+                    <h4>ESTEFANIA GRAJALES</h4>  
+                    <p><span style="font-size:35px">“</span> Ir a otra ciudad y ser la sensación de la fiesta gracias a tu clase de baile ha sido de las experiencias más gratificantes que he vivido desde que decidí hacer parte de esta maravillosa academia <span style="font-size:35px">”</span>.</p> 
                 </div>
                 <div class="col-md-12 text-center padding-top-40">        
                         <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A BAILAR</a>        
@@ -95,7 +91,7 @@
 
             	    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-tecnologia" style="font-size:50px"></i></div><p>Tecnología a sus manos</p></div>		
 
-                    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"></div><i class="icon_a-compania-de-baile" style="font-size:50px"></i><p>Compañia de baile</p></div>	
+                    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"></div><i class="icon_a-compania-de-baile" style="font-size:50px"></i><p>Compañía de baile</p></div>	
 
                     <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-certificados" style="font-size:50px"></i></div><p>Certificación</p></div>
 

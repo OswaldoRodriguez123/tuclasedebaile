@@ -191,15 +191,6 @@
         <h3>CON MÁS DE 10 AÑOS DE EXPERIENCIA HEMOS AYUDADO A MILES DE ALUMNOS A LOGRAR SUS OBJETIVOS</h3> 
 
         <br>
-        <!-- <div class="text-left">
-        <p><span class="text-success">✔</span>   Profesor internacionales con más de diez años de experiencia <br>
-            <span class="text-success">✔</span>  Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo en cada nivel superado<br>
-            <span class="text-success">✔</span>  Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con una experiencia de montaje de grandes escenarios<br>
-            <span class="text-success">✔</span>  Nuestros alumnos cuentan  con la plataforma tecnológica para gestionar múltiples funcionalidades 
-
-		</p>
-        </div> -->
-
     <div class="col-md-3 padding-top-bottom-20 text-center">
         <img src="img/ic_experiencia.png" class="img-circle img-responsive img-center img-150" alt="" > 
         <br>             
@@ -215,7 +206,7 @@
     <div class="col-md-3 padding-top-bottom-20 text-center">
         <img src="img/ic_eventos.png" class="img-circle img-responsive img-center img-150" alt="" > 
         <br>             
-        <span> Creamos eventos para nuestros alumnos  talla regional, nacional e internacional </span>
+        <span> Creamos eventos para nuestros alumnos de talla regional, nacional e internacional </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
@@ -245,14 +236,14 @@
         <blockquote> <span style="font-size:35px">“</span> Pudimos bailar en nuestra boda, esto sin ustedes no hubiese sido posible, un sueño más cumplido, gracias a la academia y sus profesores <span style="font-size:35px">”</span>.</blockquote>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/caso-5.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>HERNAN PALACIO</h4>  
-        <blockquote> <span style="font-size:35px">“</span> Les agradezco mucho, me hicieron ver la música de una manera distinta, ver la música de esta forma es algo que me aporta mucho a la hora de estructurar una canción <span style="font-size:35px">”</span>.</blockquote>   
+        <img src="img/caso-12.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <h4>LAURA MAURO</h4>  
+        <blockquote> <span style="font-size:35px">“</span> Las clases muestran variedad y son de gran calidad, Tu Clase De Baile es una academia que permite una la mezcla de culturas con profesores venezolanos y alumnos internacionales <span style="font-size:35px">”</span>.</blockquote>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
-        <img src="img/caso-6.jpg" class="img-circle img-responsive img-center img-150" alt="" >
-        <h4>ANDREA BETANCUR</h4>  
-        <blockquote> <span style="font-size:35px">“</span> Excelente "Tu Clase de Baile" un vivo ejemplo de que la dedicación y el esfuerzo dan como resultado grandes logros <span style="font-size:35px">”</span>.</blockquote> 
+        <img src="img/caso-13.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <h4>DIEGO VELÁSQUEZ</h4>  
+        <blockquote> <span style="font-size:35px">“</span> Son únicos, es un espacio acogedor en el cual he podido reencontrarme con el gozo de bailar además de aprender cosas nuevas de la mano de gente que es muy profesional y buena onda <span style="font-size:35px">”</span>.</blockquote> 
     </div>
   </div>
   </div> 

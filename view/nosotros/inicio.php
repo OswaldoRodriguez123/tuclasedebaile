@@ -115,7 +115,7 @@
               <span class="padding-20">
                 <b>Henry Fuenmayor – Directiva - Promotor</b><br><br>
 
-                Orienta a nuestros clientes y los asesora brindando la información oportuna, ofrece las diversas líneas de producto y servicios con las que cuenta la organización.
+                Orienta a nuestros clientes y los asesora brindándoles información oportuna, ofrece las diversas líneas servicios y productos con los que cuenta la organización.
               </span>
               <div class="social_nosotros">
                     <a href="https://www.facebook.com/profile.php?id=100010485076620" target="_blank"><i class="fa fa-facebook-official"></i></a>
@@ -250,7 +250,7 @@
           <span class="descripcion_nosotros descripcion_nosotros_azul">
               <div class="clearfix padding-top-30"></div>
               <span class="padding-20">
-                <b>Juan Carlos Chirinos - Productor audio visual</b><br><br>
+                <b>Juan Carlos Chirinos - Productor audiovisual</b><br><br>
 
                 Es el desarrollador de contenidos para los medios de comunicación visual y demás canales que poseemos en nuestra organización. 
               </span>
