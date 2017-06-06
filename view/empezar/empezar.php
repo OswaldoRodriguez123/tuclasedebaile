@@ -238,7 +238,7 @@
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/caso-12.jpg" class="img-circle img-responsive img-center img-150" alt="" >
         <h4>LAURA MAURO</h4>  
-        <blockquote> <span style="font-size:35px">“</span> Las clases muestran variedad y son de gran calidad, Tu Clase De Baile es una academia que permite una la mezcla de culturas con profesores venezolanos y alumnos internacionales <span style="font-size:35px">”</span>.</blockquote>   
+        <blockquote> <span style="font-size:35px">“</span> Las clases muestran variedad y son de gran calidad, Tu Clase De Baile es una academia que permite una mezcla de culturas con profesores venezolanos y alumnos internacionales <span style="font-size:35px">”</span>.</blockquote>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/caso-13.jpg" class="img-circle img-responsive img-center img-150" alt="" >

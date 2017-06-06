@@ -45,17 +45,17 @@
                     <div class="col-md-4 padding-top-bottom-20 text-center">
                     <img src="img/caso-9.jpg" class="img-circle img-responsive img-center img-150" alt="" >
                     <h4>LINA BEDOYA</h4>                    
-                    <p><span style="font-size:35px">“</span> Ha sido una experiencia maravillosa. Cada vez me siento más a gusto en la academia, comparto con mi familia y espero seguir aprendiendo cada día más. Es lo máximo! <span style="font-size:35px">”</span>.</p>
+                    <p><span style="font-size:35px">“</span>Ha sido una experiencia maravillosa. Cada vez me siento más a gusto en la academia, comparto con mi familia y espero seguir aprendiendo cada día más. ¡Es lo máximo!<span style="font-size:35px">”</span>.</p>
                 </div>
                 <div class="col-md-4 padding-top-bottom-20 text-center">
                     <img src="img/caso-10.jpg" class="img-circle img-responsive img-center img-150" alt="" >
                     <h4>JUAN ESTEBAN</h4>  
-                    <p><span style="font-size:35px">“</span> Estoy muy contento con Tu Clase de Baile, porque gracias a ellos he aprendido a bailar, y eso es algo muy importante, puedo disfrutar de una fiesta sin problemas. Logré lo que quería! <span style="font-size:35px">”</span>.</p>   
+                    <p><span style="font-size:35px">“</span>Estoy muy contento con Tu Clase de Baile, porque gracias a ellos he aprendido a bailar, y eso es algo muy importante, puedo disfrutar de una fiesta sin problemas. ¡Logré lo que quería!<span style="font-size:35px">”</span>.</p>   
                 </div>
                 <div class="col-md-4 padding-top-bottom-20 text-center ">
                     <img src="img/caso-11.jpg" class="img-circle img-responsive img-center img-150" alt="" >
                     <h4>ESTEFANIA GRAJALES</h4>  
-                    <p><span style="font-size:35px">“</span> Ir a otra ciudad y ser la sensación de la fiesta gracias a tu clase de baile ha sido de las experiencias más gratificantes que he vivido desde que decidí hacer parte de esta maravillosa academia <span style="font-size:35px">”</span>.</p> 
+                    <p><span style="font-size:35px">“</span>Ir a otra ciudad y ser la sensación de la fiesta gracias a tu clase de baile ha sido de las experiencias más gratificantes que he vivido desde que decidí hacer parte de esta maravillosa academia<span style="font-size:35px">”</span>.</p> 
                 </div>
                 <div class="col-md-12 text-center padding-top-40">        
                         <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A BAILAR</a>        
