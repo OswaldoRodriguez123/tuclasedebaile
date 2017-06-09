@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6 vcenter text-center">
                     <h3>APRENDE A BAILAR EN PAREJA DE FORMA FÁCIL</h3> 
-                    <p>El baile se disfruta en pareja y en Tu Clase de Baile, nos encanta enseñar los géneros que actualmente se encuentra de moda, tales como la Salsa Casino, Kizomba, Bachata, Merengue Dominicano, entre otros, con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos.
+                    <p>El baile se disfruta en pareja y en Tu Clase de Baile, nos encanta enseñar los géneros que actualmente se encuentran de moda, tales como la Salsa Casino, Kizomba, Bachata, Merengue Dominicano, entre otros, con más de 10 años de experiencia y con mucho entusiasmo nos dedicamos a nuestros alumnos.
             		</p>
                 <br><br>
                     <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">MÁS INFORMACIÓN</a>
@@ -55,7 +55,7 @@
                 <div class="col-md-4 padding-top-bottom-20 text-center ">
                     <img src="img/caso-11.jpg" class="img-circle img-responsive img-center img-150" alt="" >
                     <h4>ESTEFANIA GRAJALES</h4>  
-                    <p><span style="font-size:35px">“</span>Ir a otra ciudad y ser la sensación de la fiesta gracias a tu clase de baile ha sido de las experiencias más gratificantes que he vivido desde que decidí hacer parte de esta maravillosa academia<span style="font-size:35px">”</span>.</p> 
+                    <p><span style="font-size:35px">“</span>Ir a otra ciudad y ser la sensación de la fiesta gracias a Tu Clase de Baile ha sido de las experiencias más gratificantes que he vivido desde que decidí hacer parte de esta maravillosa academia<span style="font-size:35px">”</span>.</p> 
                 </div>
                 <div class="col-md-12 text-center padding-top-40">        
                         <a href="#/empezar" class="btn btn-azul-claro-grande btn-lg text-uppercase">A BAILAR</a>        
@@ -89,7 +89,7 @@
 
                     <div class="clearfix p-b-15"></div>
 
-            	    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-tecnologia" style="font-size:50px"></i></div><p>Tecnología a sus manos</p></div>		
+            	    <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"><i class="icon_a-tecnologia" style="font-size:50px"></i></div><p>Tecnología en tus manos</p></div>		
 
                     <div class="col-md-3 padding-bottom-40 icono"> <div class="icono-inicio"></div><i class="icon_a-compania-de-baile" style="font-size:50px"></i><p>Compañía de baile</p></div>	
 

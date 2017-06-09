@@ -16,7 +16,7 @@
 		    <br>
             <div class="col-md-12 text-center" style="padding-top:100px">    
 				    <h2 class="text-center">MÁS DE DIEZ AÑOS DE EXPERIENCIA NOS  AVALAN</h2>
-                    <a href="#/empezar" class="btn btn-blanco-grande btn-lg text-uppercase">BAÍLAME</a>        
+                    <a href="#/empezar" class="btn btn-blanco-grande btn-lg text-uppercase">BÁILAME</a>        
             </div>
         </div>
         </div>
@@ -182,7 +182,7 @@
                    Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con experiencia en montaje de grandes escenarios, bailarines de diversas partes de Latinoamérica y artistas de muy alta talla. Nuestra organización ha participado con orquestas de la talla de:
                </p>
 			   <p class="padding-top-20" >
-                El gran combo de puerto rico/ Dimensión latina/ La súper banda de Venezuela Guaco/ Los adolescentes / Puppy y los que son son /Los Van Van / entre otros.
+                El gran combo de Puerto Rico / Dimensión latina / La súper banda de Venezuela Guaco / Los adolescentes / Puppy y los que son son / Los Van Van / entre otros.
             </p>
            </div>
                      

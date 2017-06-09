@@ -306,7 +306,7 @@
 
         <div class="p-t-10 p-b-10">
           <span class="f-25"><i class="fa fa-check icono-inicio-hover"></i> <span class="f-700">Escribe en nuestro blog</span></span><br>
-          <span class="f-22">Invitamos a nuestra comunidad hacerse parte de nuestro equipo de blogueros colaboradores escribiendo sobre experiencias, novedades, actividades, consejos, herramientas, eventos, atuendos, bailarines, perfiles, entrevistas y artículos de interés del gremio del baile de una manera sencilla y dinámica con artículos que aporten contenidos de valor para nuestro ecosistema en el gremio del baile. Por cada cinco (5) artículos recibirás <b>10.000</b> puntos, además del beneficio de proyección y reconocimiento público como bloguero de nuestra comunidad</span>
+          <span class="f-22">Invitamos a nuestra comunidad hacerse parte de nuestro equipo de blogueros colaboradores escribiendo sobre experiencias, novedades, actividades, consejos, herramientas, eventos, atuendos, bailarines, perfiles, entrevistas y artículos de interés del gremio del baile de una manera sencilla y dinámica con artículos que aporten contenidos de valor para nuestro ecosistema en el gremio del baile. Por cada cinco (5) artículos recibirás <b>10.000</b> puntos, además del beneficio de proyección y reconocimiento público como bloguero de nuestra comunidad.</span>
         </div>
 
       </div>
