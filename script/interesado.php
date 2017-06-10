@@ -5,13 +5,8 @@ class Interesado
         header("location: http://tuclasedebaile.com.co");
     }
 
-
     public function agregar() {
-        //print_r($_POST);
-        //print_r($_SERVER);
 
-        //$vPost = json_decode(file_get_contents('php://input'), true);
-        //print_r($vPost);
       if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
       {
         print_r($_POST);
@@ -37,29 +32,16 @@ class Interesado
                 $entero= isset($_POST['data']['entero']) ? trim($_POST['data']['entero']) : "";
                 $region= isset($_POST['data']['region']) ? trim($_POST['data']['region']) : "";
 
-                print_r($_POST);
-
-                /*$vLimpiar= new InputFilter();
-                $correo=$vLimpiar->process($correo);
-                $clave=$vLimpiar->process($clave);
-                $nombre=$vLimpiar->process($nombre);
-                $apellido=$vLimpiar->process($apellido);
-                $telefono=$vLimpiar->process($telefono);
-                $cargo=$vLimpiar->process($cargo);*/
-
                 if(!empty($correo) && !empty($clave)  && !empty($nombre)  && !empty($apellido) &&
                     !empty($telefono) && !empty($cargo) && !empty($academia) && !empty($direccion) && !empty($telefono_movil) && !empty($pais) && !empty($estado) &&
                     !empty($entero) && !empty($region)){
-
-                    print_r($_POST);
 
                     $data=array('correo'=>$correo, 'clave'=>$clave, 'nombre'=>$nombre, 'apellido'=>$apellido, 'telefono'=>$telefono, 'cargo'=>$cargo,
                         'academia'=>$academia, 'direccion'=>$direccion, 'telefono_local'=>$telefono_local, 'telefono_movil'=>$telefono_movil, 'pais'=>$pais, 'estado'=>$estado, 'entero'=>$entero, 'region'=>$region);
                     require_once ('../class/class_db_interesado.php');
                     $DBInteresado = new DBInteresado();
                     $estado=$DBInteresado->agregar($data);
-                    //echo json_encode($estado);
-                    //$estado=DBInteresado::insert($data);
+
                     $codigo=$estado['codigo'];
                     $md5=md5($codigo);
                     if($estado['mensaje']=="agregado"){
@@ -100,8 +82,7 @@ class Interesado
     }
 
     public function academia() {
-       // print_r($_POST);
-       //print_r($_SERVER);
+
       if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
       {
         if($_SERVER['HTTP_REFERER'] == "http://tuclasedebaile.com.co"){
@@ -133,7 +114,6 @@ class Interesado
                     $md5=md5($codigo);
                     if($estado['mensaje']=="agregado"){
                         $arraydata=array("estado"=>"bien", "mensaje"=>"Se ha agregado satisfactoriamente" );
-                        //enviar($correo);
 
                         $para=$correo;
                         $copia='alejandrogarcia15@gmail.com';
@@ -150,17 +130,10 @@ class Interesado
                         }else{
                             $mensajeStatus = false;
                         }
-                        //Suponiendo que el correo fue enviado correctamente
-                        if ($mensajeStatus) {
-                            //print 1;
-                        } else {
-
-                        }
-
+        
                     }else{
                         $arraydata=array("estado"=>"mal", "mensaje"=>"Se ocurrido se ha ejecutado la operacion");
                     }
-                    //print_r($_POST);
                 }else{
                     $arraydata=array("estado"=>"mal", "mensaje"=>"Los campos se encuentra vacios");
                 }
@@ -261,23 +234,13 @@ class Interesado
         }else{
             $mensajeStatus = false;
         }
-        //Suponiendo que el correo fue enviado correctamente
-        if ($mensajeStatus) {
-            print 1;
-        } else {
-
-        }
-
-
     }
 }
+
 ?>
 <?php
-    //print_r($_POST);
+
     if(isset($_POST['data']['agregar']) && $_POST['data']['agregar']=='agregarInteresado'){
-        //$operacion = new Interesado();
-        //$operacion->agregar();
-        //print_r($_POST);
 
 
 
@@ -291,269 +254,44 @@ class Interesado
                 $entero= isset($_POST['data']['ComoNosConociste']) ? trim($_POST['data']['ComoNosConociste']) : "";
                 $region= isset($_POST['data']['Region']) ? trim($_POST['data']['Region']) : "";
 
-                //print_r($_POST);
+  
 
                 if(!empty($correo) && !empty($nombre) && !empty($sexo)
                     && !empty($telefono_local)  && !empty($telefono_movil) && !empty($entero) && !empty($region)){
 
-                    //print_r($_POST);
-require_once ('../class/class_db_interesado.php');
-$DBInteresado = new DBInteresado();
-// $status=$DBInteresado->verificar_correo($correo);
+                    require_once ('../class/class_db_interesado.php');
+                    $DBInteresado = new DBInteresado();
 
+                    $arraydata=array();
 
-
-        $arraydata=array();
-        // if(count($status)>0){
-
-        //                  $arraydata=array("estado"=>"duplicado", "mensaje"=>"duplicado" );
-
-        //      header('Content-type: application/json; charset=utf-8');
-
-        //                  echo json_encode($arraydata);
-
-        //                  exit();
-        // }else{
-
-                    //$clave = base64_encode($clave);
                     $data=array('correo'=>$correo, 'nombre'=>$nombre, 'telefono_local'=>$telefono_local, 'telefono_movil'=>$telefono_movil, 'entero'=>$entero, 'region'=>$region, 'sexo'=>$sexo);
-
 
                     $status=$DBInteresado->agregar($data);
 
-
-
-                    //print_r($status);
-                    //echo json_encode($estado);
-                    //$estado=DBInteresado::insert($data);
-
-                    //$codigo=$status['codigo'];
-                    //print_r($codigo);
-                    //$md5=md5($codigo);
                     $envio=true;
                     if($status['mensaje']=="agregado" && $envio==true){
                         $arraydata=array("estado"=>"bien", "mensaje"=>"Se ha agregado satisfactoriamente" );
-                         $para=$correo;
+                        $para=$correo;
 
-                         if($region == 1){
+                        if($region == 1){
                             $sede = 'tuclasedebaileoficial@gmail.com';
-                            $numero = '350 886 0474';
-                         }else if($region == 2){
+                            $numero = '300 645 4271';
+                        }else if($region == 2){
                             $sede = 'tuclasedebailevzla@gmail.com';
                             $numero = '04246352596 / 04146215928';
-                         }else if($region == 3){
+                        }else if($region == 3){
                             $sede = 'helmer.morcillo@cfcya.co';
                             $numero = '313 737 1279';
-                         }else{
+                        }else{
                             $sede = 'henryfuenmayor13@gmail.com';
                             $numero = '300 645 4271';
-                         }
+                        }
 
-                         // if($region == 1){
-                         //    $sede = 'tuclasedebaileoficial@gmail.com';
-                         //    $numero = '350 886 0474';
-                         // }else if($region == 2){
-                         //    $sede = 'tuclasedebailemaicao@gmail.com';
-                         //    $numero = '304 623 03 81';
-                         // }else if($region == 3){
-                         //    $sede = 'helmer.morcillo@cfcya.co';
-                         //    $numero = '313 737 1279';
-                         // }else if($region == 4){
-                         //    $sede = 'dainerv17@hotmail.com';
-                         //    $numero = '300 645 4271';
-                         // }else{
-                         //    $sede = 'henryfuenmayor13@gmail.com';
-                         //    $numero = '300 645 4271';
-                         // }
-
-                         $de='tuclasedebaileoficial@gmail.com';
-                         $asunto='Registro tu clase de baile';
-                         $asunto_cliente='Información tu clase de baile';
-                         $copia='alejandrogarcia15@gmail.com';
-                         $correo_principal='alejandrogarcia15@gmail.com';
-
-                        /*$cuerpo='<table style="table-layout:fixed" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="100%">
-      <tbody><tr>
-        <td valign="top">
-          <table align="center" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="600">
-            <tbody><tr>
-              <td width="11">
-                &nbsp;</td>
-              <td valign="top" width="579">
-                <table border="0" cellpadding="0" cellspacing="0" width="579">
-                  <tbody><tr>
-                    <td style="font-size:2px" height="5">
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td style="font-size:2px" height="12">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td height="14" valign="top">
-                      <table style="line-height:0" height="14" border="0" cellpadding="0" cellspacing="0" width="579">
-                        <tbody><tr height="14">
-                          <td height="14" valign="top">
-                            <img class="CToWUd" alt="" src="https://ci4.googleusercontent.com/proxy/_fDpSAmiJ3_gqrJKi9c14Gm_FeFo-f0j8HnvVEOtLOy430VDXYHjoZiNTkDJAw6DTA_PNK58gjoJ-uuViWYZlt_mmafNNpsG52G1f6UcBv3P=s0-d-e1-ft#http://pkt-emails.s3.amazonaws.com/rounded_top-original.gif" border="0">
-                          </td>
-                        </tr>
-                      </tbody></table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td bgcolor="#FFFFFF" valign="top">
-                      <table border="0" cellpadding="0" cellspacing="0" width="579">
-                        <tbody><tr>
-                          <td width="33">
-                            &nbsp;</td>
-                          <td valign="top" width="510">
-                            <table border="0" cellpadding="0" cellspacing="0" width="510">
-                              <tbody><tr>
-                                <td style="font-size:2px" height="10">
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td align="center" valign="top"> <a href="http://tuclasedebaile.com.co" target="_blank"><img class="CToWUd" alt="Tu Clase de Baile" src="http://tuclasedebaile.com.co/img/logo.png" width="120"></a>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td style="font-size:2px" height="30">
-                                </td>
-                              </tr>
-            <tr>
-                                <td valign="top" style="text-align:center;">
-                                  <font style="font-family:Helvetica Neue,Arial,Helvetica,sans-serif;font-size:16px;line-height:18px;color:#000000;font-weight:bold;"> ESTAMOS MUY FELICES DE TENERTE A BORDO <br><br>
-                                  </font>
-                              </td></tr><tr>
-            </tr><tr>
-                                <td valign="top">
-                                  <font style="font-family:HelveticaNeue,Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#000000">
-                                    Hola <b> '.$nombre.' </b> estamos muy contentos que te hayas unido a nuestra comunidad del baile</font>
-                                </td>
-                              </tr>
-
-
-                              <tr>
-                                <td style="font-size:2px" height="20">
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td style="font-size:2px" height="20">
-                                </td>
-                              </tr>
-
-                              <tr>
-
-                                <td style="font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:15px;font-weight:bold" align="center">
-
-              <a href="http://tuclasedebaile.com.co/#/confirmacion/'.base64_encode($para).'" style="background-color:#4094CC;border-radius:2px;color:#ffffff;display:inline-block;line-height:40px;text-align:center;text-decoration:none;width:160px" target="_blank">Confirma tu correo</a>
-            </td>
-                              </tr>
-
-                              <tr>
-                                <td style="font-size:2px" height="20">
-                                </td>
-                              </tr>
-
-
-                              <tr>
-                                <td style="font-size:2px" height="20">
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td valign="top">
-                                  <font style="font-family:Helvetica Neue,Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;color:#000000">
-                                    Si no has solicitado información de Tu Clase de Baile, simplemente ignora este mensaje. Si tienes alguna duda o pregunta, ponte en contacto con nosotros en <a href="mailto:tuclasedebaileoficial@gmail.com" target="_blank">tuclasedebaileoficial@gmail.com</a>. </font>
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td style="font-size:2px" height="20">
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td style="font-size:2px" height="24">
-                                </td>
-                              </tr>
-                            </tbody></table>
-                          </td>
-                          <td width="36">
-                            &nbsp;</td>
-                        </tr>
-                      </tbody></table>
-                    </td>
-                  </tr>
-
-                    <tr>
-                        <td align="center" valign="top">
-                            <table style="height:57px;table-layout:fixed" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                <tbody><tr>
-                                    <td style="height:57px;width:27px" valign="top">
-                                        <img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/correos/footerimg-leftspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
-                                        <a href="http://tuclasedebaile.com.co" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/prueba/img/correos/logo_gris.png?v=2" style="width:104px;min-height:57px" border="0"></a>
-                                    </td>
-                                    <td style="font-size:1px;height:57px;line-height:1px;width:277px" height="57" valign="top" width="277">
-                                        <img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/correos/footerimg-middlespacer@2x.png?v=2" style="width:277px;min-height:57px" border="0">
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:29px" align="left" valign="top">
-                                        <a href="http://tuclasedebaile.com.co/#/noticias" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
-                                            <img class="CToWUd" alt="Blog" src="http://tuclasedebaile.com.co/img/correos/footerimg-blog@2x.png" style="width:29px;min-height:57px" border="0">
-                                        </a>
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
-                                        <img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:26px" align="left" valign="top">
-                                        <a href="https://instagram.com/tuclasedebaileoficial/" target="_blank">
-                                            <img class="CToWUd" alt="Twitter" src="http://tuclasedebaile.com.co/img/correos/footerimg-twitter@2x.png?v=2" style="width:26px;min-height:57px" border="0">
-                                        </a>
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
-                                        <img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
-                                    </td>
-                                    <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:10px" align="left" valign="top">
-                                        <a href="https://www.facebook.com/Mi-Clase-de-Baile-960537544002431/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
-                                            <img class="CToWUd" alt="Facebook" src="http://tuclasedebaile.com.co/img/correos/footerimg-facebook@2x.png?v=2" style="width:10px;min-height:57px" border="0">
-                                        </a>
-                                    </td>
-                                    <td style="height:57px;width:27px" valign="top">
-                                        <img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/correos/footerimg-rightspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-
-                  <tr>
-                    <td valign="top">
-                      <table border="0" cellpadding="0" cellspacing="0" width="579">
-                        <tbody><tr>
-                          <td style="font-size:2px" height="24">
-                          </td>
-                        </tr>
-                        <tr>
-                          <td style="font-size:2px" height="22">
-                          </td>
-                        </tr>
-                      </tbody></table>
-                    </td>
-                  </tr>
-                </tbody></table>
-              </td>
-              <td width="10">
-                &nbsp;</td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </tbody></table>';*/
+                        $de='tuclasedebaileoficial@gmail.com';
+                        $asunto='Registro tu clase de baile';
+                        $asunto_cliente='Información tu clase de baile';
+                        $copia='alejandrogarcia15@gmail.com';
+                        $correo_principal='alejandrogarcia15@gmail.com';
 
                         $cuerpo='<table style="table-layout:fixed" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="100%">
                           <tbody><tr>
@@ -729,267 +467,258 @@ $DBInteresado = new DBInteresado();
                             $mensajeStatus = false;
                         }
 
-
-                        //Suponiendo que el correo fue enviado correctamente
-                        if ($mensajeStatus) {
-                           // print 1;
-                        } else {
-
-                        }
-
-
                         $cuerpo_cliente='<table style="table-layout:fixed" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tbody><tr>
-    <td valign="top">
-      <table align="center" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="600">
-        <tbody><tr>
-          <td width="11">
-            &nbsp;</td>
-          <td valign="top" width="579">
-            <table border="0" cellpadding="0" cellspacing="0" width="579">
-              <tbody><tr>
-                <td style="font-size:2px" height="5">
-                </td>
-              </tr>
+                          <tbody><tr>
+                            <td valign="top">
+                              <table align="center" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="600">
+                                <tbody><tr>
+                                  <td width="11">
+                                    &nbsp;</td>
+                                  <td valign="top" width="579">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="579">
+                                      <tbody><tr>
+                                        <td style="font-size:2px" height="5">
+                                        </td>
+                                      </tr>
 
-              <tr>
-                <td style="font-size:2px" height="12">
-                </td>
-              </tr>
-              <tr>
-                <td height="14" valign="top">
-                  <table style="line-height:0" height="14" border="0" cellpadding="0" cellspacing="0" width="579">
-                    <tbody><tr height="14">
-                      <td height="14" valign="top">
-                        <img class="CToWUd" alt="" src="https://ci4.googleusercontent.com/proxy/_fDpSAmiJ3_gqrJKi9c14Gm_FeFo-f0j8HnvVEOtLOy430VDXYHjoZiNTkDJAw6DTA_PNK58gjoJ-uuViWYZlt_mmafNNpsG52G1f6UcBv3P=s0-d-e1-ft#http://pkt-emails.s3.amazonaws.com/rounded_top-original.gif" border="0">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-              <tr>
-                <td bgcolor="#FFFFFF" valign="top">
-                  <table border="0" cellpadding="0" cellspacing="0" width="579">
-                    <tbody><tr>
-                      <td width="33">
-                        &nbsp;</td>
-                      <td valign="top" width="510">
-                        <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- PRIMERA TABLA -->
-                          <tr>
-                            <td style="font-size:2px" height="10">
+                                      <tr>
+                                        <td style="font-size:2px" height="12">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td height="14" valign="top">
+                                          <table style="line-height:0" height="14" border="0" cellpadding="0" cellspacing="0" width="579">
+                                            <tbody><tr height="14">
+                                              <td height="14" valign="top">
+                                                <img class="CToWUd" alt="" src="https://ci4.googleusercontent.com/proxy/_fDpSAmiJ3_gqrJKi9c14Gm_FeFo-f0j8HnvVEOtLOy430VDXYHjoZiNTkDJAw6DTA_PNK58gjoJ-uuViWYZlt_mmafNNpsG52G1f6UcBv3P=s0-d-e1-ft#http://pkt-emails.s3.amazonaws.com/rounded_top-original.gif" border="0">
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td bgcolor="#FFFFFF" valign="top">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="579">
+                                            <tbody><tr>
+                                              <td width="33">
+                                                &nbsp;</td>
+                                              <td valign="top" width="510">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- PRIMERA TABLA -->
+                                                  <tr>
+                                                    <td style="font-size:2px" height="10">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/logo.png" width="120">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="30">
+                                                    </td>
+                                                  </tr>
+
+
+                                                  <tr>
+                                                    <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/correo_principal.jpg" height="200" width="500">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="30">
+                                                    </td>
+                                                  </tr>
+
+                                                 <tr style="width:100%">
+                                                    <td valign="top" style="text-align:center">
+                                                    <font style="font-size:16px;line-height:18px;color:#000000;font-weight:bold;"> Acabas de dar el primer paso, te acompañaremos
+
+                                                    <p>en el logro de tus objetivos</p><br><br>
+                                                    </font>
+                                                  </td>
+                                                  </tr>
+
+
+
+
+                                                  </table> <!-- PRIMERA TABLA -->
+
+
+                                                  <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- SEGUNDA TABLA -->
+
+                                                  <tr style="height:150px"> <!-- INICIO PRIMERA IMAGEN -->
+                                                    <td align="left" valign="top" style=" width:50%">
+
+                                                    <font style="font-size:13px;color:#000000; text-align:justify">
+                                                    <span style="padding-bottom:10px; font-weight:bold">Tecnología</span>
+
+                                                    <p style="padding-right:20px; line-height:22px">
+                                                          Sabemos lo mucho que significa para nuestros alumnos que puedan disfrutar de una planificación y organización de altura, por esa razón en nuestra compañía de baile, ponemos a disposición de nuestros alumnos la aplicación web Easy Dance (plataforma tecnológica para el baile).</p></font>
+                                                      </td>
+
+                                                      <td align="center" valign="top" style="width:50%">
+
+                                                        <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/tecnologia.jpg" style="width:100%; height:230px">
+                                                      </td>
+                                                  </tr><!-- FINAL PRIMERA IMAGEN -->
+
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="20">
+                                                    </td>
+                                                  </tr>
+
+
+                                                  <tr style="height:150px"> <!-- INICIO SEGUNDA IMAGEN -->
+
+                                                    <td valign="top" style="width:50%">
+
+                                                        <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/insignias.jpg" style="width:100%; height:230px">
+                                                      </td>
+
+                                                    <td align="right" valign="top" style="width:50%">
+                                                      <font style="font-size:13px;color:#000000;  text-align:justify">
+                                                      <span style="padding-bottom:10px; font-weight:bold">Certificación</span>
+                                                      <p style="padding-left:20px; line-height:22px">
+                                                           Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo en cada nivel superado, en nuestra academia de baile los niveles corresponden a la siguiente escala. Básico – Intermedio / Intermedio – Avanzado / Avanzado – Master.</p></font>
+                                                      </td>
+
+
+                                                  </tr> <!-- FINAL SEGUNDA IMAGEN -->
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="20">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr style="height:150px"> <!-- INICIO TERCERA IMAGEN -->
+
+                                                    <td valign="top" style=" height:200px; width:50%;">
+
+                                                    <font style="font-size:13px;color:#000000;  text-align:justify">
+
+                                                    <span style="padding-bottom:10px; font-weight:bold">Eventos</span>
+
+                                                    <p style="padding-right:20px; line-height:22px">
+                                                          Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con experiencia en montaje de grandes escenarios, bailarines de diversas partes de Latinoamérica y artistas de muy alta talla. Nuestros alumnos participan en eventos poniendo a prueba lo que han aprendido durante el año. </p></font>
+                                                      </td>
+
+                                                      <td valign="top" style="width:50%">
+
+                                                        <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/eventos.jpg" style="width:100%; height:230px">
+                                                      </td>
+                                                  </tr> <!-- FINAL TERCERA IMAGEN -->
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="20">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="20">
+                                                    </td>
+                                                  </tr>
+
+                                                  </table><!-- SEGUNDA TABLA -->
+
+                                                  <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- TERCERA TABLA -->
+                                                  <tr style="width:100%">
+                                                  <span style="padding-bottom:10px; font-weight:bold">Tenemos mucho que ofrecerte</span>
+
+                                                  <font style="font-size:13px;color:#000000;  text-align:justify">
+                                                  <p style="padding-right:20px; line-height:22px">Espera un mensaje informativo de nuestro asesor de servicios, en un lapso no mayor a 72 horas nos comunicaremos contigo, o si prefieres puedes comunicarte a través de WhatsApp al '.$numero.' y con gusto te atenderemos. </p></font>
+
+                                                  <span style="padding-bottom:10px; font-weight:bold">Importante</span>
+
+                                                  <font style="font-size:13px;color:#000000;  text-align:justify">
+
+                                                  <p style="padding-right:20px; line-height:22px">Si eres menor de edad por favor pídele a tus padres que entren en contacto con nosotros.</p></font>
+                                                   </tr>
+                                                  <tr>
+                                                    <td style="font-size:2px" height="20">
+                                                    </td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td style="font-size:2px" height="24">
+                                                    </td>
+                                                  </tr>
+                                                </table><!-- TERCERA TABLA -->
+                                              </td>
+                                              <td width="36">
+                                                &nbsp;</td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+
+                                      </tr> <!-- FINAL -->
+
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table style="height:57px;table-layout:fixed" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody><tr>
+                                                        <td style="height:57px;width:27px" valign="top">
+                                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-leftspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
+                                                            <a href="http://tuclasedebaile.com.co/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/footer.jpg" style="width:104px;max-height:57px" border="0"></a>
+                                                        </td>
+                                                        <td style="font-size:1px;height:57px;line-height:1px;width:277px" height="57" valign="top" width="277">
+                                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-middlespacer@2x.png?v=2" style="width:277px;min-height:57px" border="0">
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:29px" align="left" valign="top">
+                                                            <a href="https://tuclasedebaile.wordpress.com/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
+                                                                <img class="CToWUd" alt="Blog" src="http://easydancelatino.com/img/correos/footerimg-blog@2x.png" style="width:29px;min-height:57px" border="0">
+                                                            </a>
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
+                                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:26px" align="left" valign="top">
+                                                            <a href="https://twitter.com/tuclasedebaile" target="_blank">
+                                                                <img class="CToWUd" alt="Twitter" src="http://easydancelatino.com/img/correos/footerimg-twitter@2x.png?v=2" style="width:26px;min-height:57px" border="0">
+                                                            </a>
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
+                                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
+                                                        </td>
+                                                        <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:10px" align="left" valign="top">
+                                                            <a href="https://www.facebook.com/Tuclasedebaileoficial/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
+                                                                <img class="CToWUd" alt="Facebook" src="http://easydancelatino.com/img/correos/footerimg-facebook@2x.png?v=2" style="width:10px;min-height:57px" border="0">
+                                                            </a>
+                                                        </td>
+                                                        <td style="height:57px;width:27px" valign="top">
+                                                            <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-rightspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+
+                                      <tr>
+                                        <td valign="top">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="579">
+                                            <tbody><tr>
+                                              <td style="font-size:2px" height="24">
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td style="font-size:2px" height="22">
+                                              </td>
+                                            </tr>
+                                          </tbody></table>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </td>
+                                  <td width="10">
+                                    &nbsp;</td>
+                                </tr>
+                              </tbody></table>
                             </td>
                           </tr>
-
-                          <tr>
-                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/logo.png" width="120">
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td style="font-size:2px" height="30">
-                            </td>
-                          </tr>
-
-
-                          <tr>
-                            <td align="center" valign="top"><img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/correo_principal.jpg" height="200" width="500">
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td style="font-size:2px" height="30">
-                            </td>
-                          </tr>
-
-                         <tr style="width:100%">
-                            <td valign="top" style="text-align:center">
-                            <font style="font-size:16px;line-height:18px;color:#000000;font-weight:bold;"> Acabas de dar el primer paso, te acompañaremos
-
-                            <p>en el logro de tus objetivos</p><br><br>
-                            </font>
-                          </td>
-                          </tr>
-
-
-
-
-                          </table> <!-- PRIMERA TABLA -->
-
-
-                          <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- SEGUNDA TABLA -->
-
-                          <tr style="height:150px"> <!-- INICIO PRIMERA IMAGEN -->
-                            <td align="left" valign="top" style=" width:50%">
-
-                            <font style="font-size:13px;color:#000000; text-align:justify">
-                            <span style="padding-bottom:10px; font-weight:bold">Tecnología</span>
-
-                            <p style="padding-right:20px; line-height:22px">
-                                  Sabemos lo importante que representa el que nuestros alumnos puedan disfrutar en una planificación y organización de altura, por esa razón en nuestra  academia de baile, ponemos a disposición para nuestros alumnos, la aplicación web Easy dance, (plataforma tecnológica para el baile).</p></font>
-                              </td>
-
-                              <td align="center" valign="top" style="width:50%">
-
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/tecnologia.jpg" style="width:100%; height:230px">
-                              </td>
-                          </tr><!-- FINAL PRIMERA IMAGEN -->
-
-
-                          <tr>
-                            <td style="font-size:2px" height="20">
-                            </td>
-                          </tr>
-
-
-                          <tr style="height:150px"> <!-- INICIO SEGUNDA IMAGEN -->
-
-                            <td valign="top" style="width:50%">
-
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/certificacion.jpg" style="width:100%; height:230px">
-                              </td>
-
-                            <td align="right" valign="top" style="width:50%">
-                              <font style="font-size:13px;color:#000000;  text-align:justify">
-                              <span style="padding-bottom:10px; font-weight:bold">Certificación</span>
-                              <p style="padding-left:20px; line-height:22px">
-                                   Nos encanta que nuestros alumnos logren sus metas, por esa razón, les reconocemos su esfuerzo en cada nivel superado , en nuestra academia de baile los niveles corresponden a la siguiente escala Básico – intermedio / Intermedio – avanzado / Avanzado - Master.</p></font>
-                              </td>
-
-
-                          </tr> <!-- FINAL SEGUNDA IMAGEN -->
-
-                          <tr>
-                            <td style="font-size:2px" height="20">
-                            </td>
-                          </tr>
-
-                          <tr style="height:150px"> <!-- INICIO TERCERA IMAGEN -->
-
-                            <td valign="top" style=" height:200px; width:50%;">
-
-                            <font style="font-size:13px;color:#000000;  text-align:justify">
-
-                            <span style="padding-bottom:10px; font-weight:bold">Eventos</span>
-
-                            <p style="padding-right:20px; line-height:22px">
-                                  Nos caracterizamos por crear grandes eventos de talla regional, nacional e internacional, con una experiencia de montaje de grandes escenarios, bailarines de diversas partes de latino América y artistas de muy alta talla. nuestros alumnos participan en eventos poniendo a prueba lo que han aprendido  durante el año.</p></font>
-                              </td>
-
-                              <td valign="top" style="width:50%">
-
-                                <img class="CToWUd" alt="Pocket-logo-email-original" src="http://tuclasedebaile.com.co/img/eventos.jpg" style="width:100%; height:230px">
-                              </td>
-                          </tr> <!-- FINAL TERCERA IMAGEN -->
-
-                          <tr>
-                            <td style="font-size:2px" height="20">
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td style="font-size:2px" height="20">
-                            </td>
-                          </tr>
-
-                          </table><!-- SEGUNDA TABLA -->
-
-                          <table border="0" cellpadding="0" cellspacing="0" width="510"> <!-- TERCERA TABLA -->
-                          <tr style="width:100%">
-                          <span style="padding-bottom:10px; font-weight:bold">Tenemos mucho que ofrecerte</span>
-
-                          <font style="font-size:13px;color:#000000;  text-align:justify">
-                          <p style="padding-right:20px; line-height:22px">Espera una  llamada informativa, de nuestro asesor de servicios , en un lapso no mayor a 72 horas nos comunicaremos contigo, o si prefieres puedes comunicarte a través de una llamada telefónica al '.$numero.' y con gusto te atenderemos. </p></font>
-
-                          <span style="padding-bottom:10px; font-weight:bold">Importante</span>
-
-                          <font style="font-size:13px;color:#000000;  text-align:justify">
-
-                          <p style="padding-right:20px; line-height:22px">Si eres menor de edad por favor pídeles a tus padres que entren en contacto con nosotros. </p></font>
-                           </tr>
-                          <tr>
-                            <td style="font-size:2px" height="20">
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td style="font-size:2px" height="24">
-                            </td>
-                          </tr>
-                        </table><!-- TERCERA TABLA -->
-                      </td>
-                      <td width="36">
-                        &nbsp;</td>
-                    </tr>
-                  </tbody></table>
-                </td>
-
-              </tr> <!-- FINAL -->
-
-                <tr>
-                    <td align="center" valign="top">
-                        <table style="height:57px;table-layout:fixed" border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tbody><tr>
-                                <td style="height:57px;width:27px" valign="top">
-                                    <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-leftspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:104px" align="left" valign="top">
-                                    <a href="http://tuclasedebaile.com.co/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank"><img class="CToWUd" alt="" src="http://tuclasedebaile.com.co/img/footer.jpg" style="width:104px;max-height:57px" border="0"></a>
-                                </td>
-                                <td style="font-size:1px;height:57px;line-height:1px;width:277px" height="57" valign="top" width="277">
-                                    <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-middlespacer@2x.png?v=2" style="width:277px;min-height:57px" border="0">
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:29px" align="left" valign="top">
-                                    <a href="https://tuclasedebaile.wordpress.com/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
-                                        <img class="CToWUd" alt="Blog" src="http://easydancelatino.com/img/correos/footerimg-blog@2x.png" style="width:29px;min-height:57px" border="0">
-                                    </a>
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
-                                    <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:26px" align="left" valign="top">
-                                    <a href="https://twitter.com/tuclasedebaile" target="_blank">
-                                        <img class="CToWUd" alt="Twitter" src="http://easydancelatino.com/img/correos/footerimg-twitter@2x.png?v=2" style="width:26px;min-height:57px" border="0">
-                                    </a>
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:40px" align="left" valign="top">
-                                    <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-divider@2x.png?v=2" style="width:40px;min-height:57px" border="0">
-                                </td>
-                                <td style="font-size:1px;line-height:1px;font-family:Helvetica Neue,Helvetica,arial,sans-serif;color:#ffffff;text-align:left;height:57px;width:10px" align="left" valign="top">
-                                    <a href="https://www.facebook.com/Tuclasedebaileoficial/" style="color:#ffffff;font-weight:normal;text-decoration:underline" target="_blank">
-                                        <img class="CToWUd" alt="Facebook" src="http://easydancelatino.com/img/correos/footerimg-facebook@2x.png?v=2" style="width:10px;min-height:57px" border="0">
-                                    </a>
-                                </td>
-                                <td style="height:57px;width:27px" valign="top">
-                                    <img class="CToWUd" alt="" src="http://easydancelatino.com/img/correos/footerimg-rightspacer@2x.png?v=2" style="width:27px;min-height:57px" border="0">
-                                </td>
-                            </tr>
-                        </tbody></table>
-                    </td>
-                </tr>
-
-              <tr>
-                <td valign="top">
-                  <table border="0" cellpadding="0" cellspacing="0" width="579">
-                    <tbody><tr>
-                      <td style="font-size:2px" height="24">
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="font-size:2px" height="22">
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </td>
-              </tr>
-            </tbody></table>
-          </td>
-          <td width="10">
-            &nbsp;</td>
-        </tr>
-      </tbody></table>
-    </td>
-  </tr>
-</tbody></table>';
+                        </tbody></table>';
 
 
                         $cabeceras_cliente  = 'MIME-Version: 1.0' . "\r\n";
@@ -1009,7 +738,6 @@ $DBInteresado = new DBInteresado();
                     }else{
                         $arraydata=array("estado"=>"mal", "mensaje"=>"ha ocurrido un error no se ha ejecutado la operacion");
                     }
-                  // }
                 }else{
                     $arraydata=array("estado"=>"mal", "mensaje"=>"Los campos se encuentra vacios");
                 }
@@ -1025,18 +753,15 @@ $DBInteresado = new DBInteresado();
     }
 
     if(isset($_POST['confirmar']) && $_POST['confirmar']=='confirmar'){
-        //print_r($_POST);
+
         require_once ('../class/class_db_interesado.php');
         $DBInteresado = new DBInteresado();
         $correo= isset($_POST['correo'])? trim($_POST['correo']) : "";
         $status=$DBInteresado->verificar_correo($correo);
 
-        //print_r($status);
         $arraydata=array();
         if(count($status)>0){
-            //$arraydata=array('mensaje'=>'encontrado');
             $resul= $DBInteresado->activar_cuenta($correo);
-            //print_r($resul);
             if($resul=='1'){
                 $arraydata=array('mensaje'=>'confirmado');
             }else{
@@ -1050,19 +775,4 @@ $DBInteresado = new DBInteresado();
         exit();
     }
 
-      /*if($vPost['operacion']=='agregar'){
-        require_once ('../class/class_db_curso.php');
-        $DB_Curso = new Curso();
-        $vVerificar_Curso_Nombre=$DB_Curso->verificar_nombre($vPost['InputNombre']);
-        //echo $vVerificar_Usuario_Cedula;
-        if(count($vVerificar_Curso_Nombre)>0){ $vErrorNombre=5; }
-        if($vErrorNombre==0){
-            $vInsert_Curso=$DB_Curso->agregar($vPost['InputNombre'], $vPost['InputDescripcion'], $vPost['InputEspecialidad'], $vPost['inlineRadioOptions'] );
-            $vRespuesta=array('vrespuesta'=>$vInsert_Curso);
-          }else{
-             $vError=$vErrorNombre;
-             $vRespuesta=array('vrespuesta'=>$vError);
-          }
-          echo json_encode($vRespuesta);
-        }*/
 ?>
