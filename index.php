@@ -101,7 +101,7 @@
           <ul class="nav navbar-nav">
             <li style="padding-left: 50px"><a href="#/"> <span style="color:#3E93CC; font-size:20px;"> Tu Clase de Baile</span></a></li>
             <li><a href="#/ofrecemos" ng-class="getClass('/ofrecemos')"> <span style="color:#3E93CC; font-size:20px"> Ofrecemos</span></a></li>
-            <li><a href="app.easydancelatino.com/blog/tuclasedebaile"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li>
+            <li><a href="http://app.easydancelatino.com/blog/tuclasedebaile"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li>
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
             <li><a href="#/nosotros" ng-class="getClass('/nosotros')" > <span style="color:#3E93CC; font-size:20px"> Nosotros</span></a></li>
             <li><a href="#/lideres-en-accion" ng-class="getClass('/lideres-en-accion')" > <span style="color:#3E93CC; font-size:20px"> Líderes en Acción</span></a></li>
