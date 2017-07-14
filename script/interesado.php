@@ -290,8 +290,7 @@ class Interesado
                         $de='tuclasedebaileoficial@gmail.com';
                         $asunto='Registro tu clase de baile';
                         $asunto_cliente='Información tu clase de baile';
-                        $copia='alejandrogarcia15@gmail.com';
-                        $correo_principal='alejandrogarcia15@gmail.com';
+                        $copia='henryfuenmayor13@gmail.com';
 
                         $cuerpo='<table style="table-layout:fixed" bgcolor="#efefef" border="0" cellpadding="0" cellspacing="0" width="100%">
                           <tbody><tr>
@@ -726,7 +725,7 @@ class Interesado
                         // Cabeceras adicionales
                         $cabeceras_cliente .= 'To: '.$nombre.' '.' <'.$para.'>' . "\r\n";
                         $cabeceras_cliente .= 'From: Tu Clase de Baile <'.$de.'>' . "\r\n";
-                        $cabeceras_cliente .= 'Bcc: '.$copia.' ' . "\r\n";
+                        // $cabeceras_cliente .= 'Bcc: '.$copia.' ' . "\r\n";
 
                         if(mail($para, $asunto_cliente, $cuerpo_cliente, $cabeceras_cliente)){
                             $mensajeStatus = true;
