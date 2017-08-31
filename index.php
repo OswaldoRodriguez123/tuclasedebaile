@@ -104,7 +104,7 @@
             <!-- <li><a href="http://app.easydancelatino.com/blog/tuclasedebaile"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li> -->
             <li><a href="https://tuclasedebaile.wordpress.com"> <span style="color:#3E93CC; font-size:20px"> Blog</span></a></li>
             <li><a href="#/empezar" ng-class="getClass('/empezar')" > <span style="color:#3E93CC; font-size:20px"> Empezar</span></a></li>
-            <!-- <li><a href="#/nosotros" ng-class="getClass('/nosotros')" > <span style="color:#3E93CC; font-size:20px"> Nosotros</span></a></li> -->
+            <li><a href="#/nosotros" ng-class="getClass('/nosotros')" > <span style="color:#3E93CC; font-size:20px"> Nosotros</span></a></li>
             <li><a href="#/lideres-en-accion" ng-class="getClass('/lideres-en-accion')" > <span style="color:#3E93CC; font-size:20px"> Líderes en Acción</span></a></li>
             <!-- <li><a href="#/aliados" ng-class="getClass('/aliados')" > <span style="color:#3E93CC; font-size:20px"> Aliados</span></a></li> -->
           </ul>
