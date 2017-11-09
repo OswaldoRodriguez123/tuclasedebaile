@@ -100,6 +100,13 @@ MyApp.config(function($routeProvider, $locationProvider) {
         templateUrl : 'view/lideres/empezar.php',
         controller : 'tuClaseDeBaileController'
     })
+    .when('/niños', {
+        templateUrl : 'view/ninos/ninos.php',
+        controller : 'tuClaseDeBaileController'
+    }).when('/robertvirona', {
+        templateUrl : 'view/index.php',
+        controller : 'tuClaseDeBaileController'
+    })
     .otherwise({
         redirectTo: '/'
     });

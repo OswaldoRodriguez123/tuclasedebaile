@@ -283,19 +283,19 @@
 </div>
 </div>
 <script type="text/javascript-lazy">
-   loadjscssfile("js/function/cargar.js", "js");
+    loadjscssfile("js/function/cargar.js", "js");
 
-   $(".subir").click(function(){
+    $(".subir").click(function(){
 
       $("html, body").animate({ scrollTop: 0 }, "slow");
 
-   });
-
-   $('#email').bind("cut copy paste",function(e) {
-        e.preventDefault();
     });
 
-    $('#email_confirmation').bind("cut copy paste",function(e) {
-        e.preventDefault();
-    });
+    // $('#email').bind("cut copy paste",function(e) {
+    //     e.preventDefault();
+    // });
+
+    // $('#email_confirmation').bind("cut copy paste",function(e) {
+    //     e.preventDefault();
+    // });
 </script>
