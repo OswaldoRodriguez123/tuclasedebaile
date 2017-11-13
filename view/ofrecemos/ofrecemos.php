@@ -97,8 +97,8 @@
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
         <img src="img/iconos/bebe.png" class="img-circle img-responsive img-center img-150" alt="">
-        <h4>CLASES PARA NIÑOS</h4>  
-        <p>Una forma fácil y amena, con instructores capacitados  para el manejo de los consentidos de la casa.</p>   
+        <h4>CLASES PARA NIÑAS</h4>  
+        <p>Una forma fácil y amena, con instructores capacitados  para el manejo de las consentidas de la casa.</p>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
         <img src="img/iconos/telescopio.png" class="img-circle img-responsive img-center img-150" alt="">

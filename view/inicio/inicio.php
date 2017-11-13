@@ -260,16 +260,22 @@
 
                         <p>Por tal motivo no existe razones para negarse la oportunidad de aprender a bailar.</p> 
                     </div>
-
-                    <div class="col-md-12 text-center padding-top-bottom-50">   
-                        <h2>CLASES DE BAILE PARA TODAS LAS EDADES, EL LUGAR IDEAL PARA APRENDER A BAILAR DESDE CERO, SALSA CASINO Y BACHATA</h2>
-                        <p>Empieza ya a disfrutar del mejor servicio y atención con clases de baile diseñadas con altos estandares de calidad</p>
-                        <br> 
-                        <a href="#/empezar" class="btn-azul-claro-grande btn-lg text-uppercase">Empieza Ya</a>        
-                    </div>
                 </div>
             </div>
         </div> 
+    </section>
+
+    <section class="padding-top-bottom-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center padding-top-bottom-50">   
+                    <h2>CLASES DE BAILE PARA TODAS LAS EDADES, EL LUGAR IDEAL PARA APRENDER A BAILAR DESDE CERO, SALSA CASINO Y BACHATA</h2>
+                    <p>Empieza ya a disfrutar del mejor servicio y atención con clases de baile diseñadas con altos estandares de calidad</p>
+                    <br> 
+                    <a href="#/empezar" class="btn-azul-claro-grande btn-lg text-uppercase">Empieza Ya</a>        
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1">

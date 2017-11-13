@@ -231,7 +231,7 @@
             <a class="disabled">
               <h2 data-type="mText" class="sti-item">
 
-                Compra de una tarjeta de regalo
+                Tarjeta de regalo
 
                 <br>
                 <span class="f-15">20.000</span>

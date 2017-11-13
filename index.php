@@ -2,8 +2,8 @@
 <html lang="es" ng-app='MyApp' ng-controller="tuClaseDeBaileController" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head itemscope itemtype="http://schema.org/WPHeader">
       <title>Tu Clase de Baile</title>
-      <base href="/tuclasedebaile/" >
-      <!-- <base href="http://tuclasedebaile.com.co/" > -->
+      <!-- <base href="/tuclasedebaile/" > -->
+      <base href="http://tuclasedebaile.com.co/" >
       <link rel="canonical" href="http://tuclasedebaile.com.co/" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@tuclasedebaile" />
@@ -154,7 +154,7 @@
                     <a href="https://www.facebook.com/Tuclasedebaileoficial/" target="_blank" ><img src="img/Facebook.png" class="img-circle img-center img-60" alt="Facebook"></a>
                     <!-- <a href="https://twitter.com/miclasedebaile1" target="_blank" ><img src="img/Twitter.png" class="img-circle img-center img-60"></a> -->
                     <a href="https://instagram.com/tuclasedebaileoficial/" target="_blank" ><img src="img/Instagram.png" class="img-circle img-center img-60" alt="Instagram"></a>
-                    <!-- <a href="https://www.youtube.com/channel/UC91HkwzEv66vHVMZ0xX2wQw" target="_blank" ><img src="img/Youtube.png" class="img-circle img-center img-60"></a> -->
+                    <a href="https://www.youtube.com/channel/UCJgz89J-sxJKBiANiC6qukQ/?sub_confirmation=1" target="_blank" ><img src="img/Youtube.png" class="img-circle img-center img-60"></a>
                   </div>
 				          <p> 2017 <i class="glyphicon glyphicon-copyright-mark"></i> Tu Clase de Baile <p/>
               </div> 
