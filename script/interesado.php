@@ -280,8 +280,8 @@ class Interesado
                             $sede = 'tuclasedebailevzla@gmail.com';
                             $numero = '04246352596 / 04146215928';
                         }else if($region == 3){
-                            $sede = 'helmer.morcillo@cfcya.co';
-                            $numero = '313 737 1279';
+                            $sede = 'TCB.manizales@gmail.com';
+                            $numero = '300 645 4271';
                         }else{
                             $sede = 'henryfuenmayor13@gmail.com';
                             $numero = '300 645 4271';

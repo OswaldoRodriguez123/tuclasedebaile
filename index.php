@@ -2,12 +2,13 @@
 <html lang="es" ng-app='MyApp' ng-controller="tuClaseDeBaileController" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head itemscope itemtype="http://schema.org/WPHeader">
       <title>Tu Clase de Baile</title>
-      <!-- <base href="/tuclasedebaile/" > -->
-      <base href="http://tuclasedebaile.com.co/" >
+      <base href="/tuclasedebaile/" >
+      <!-- <base href="http://tuclasedebaile.com.co/" > -->
       <link rel="canonical" href="http://tuclasedebaile.com.co/" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@tuclasedebaile" />
       <meta name="twitter:creator" content="@tuclasedebaile" />
+      <meta name="google-site-verification" content="s2XTcpaA9Q1Y9eIa1LR60sDWEL0Al2A9LC2ML-6vO1s" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
@@ -45,7 +46,8 @@
       <link rel="stylesheet" href="css/css_filter.css">
       <link rel="stylesheet" href="css/animate.min.css">
       <link rel="stylesheet" type="text/css" href="css/stimenu.css" /> 
-      <link rel="stylesheet" href="css/main.min.css">   
+      <!-- <link rel="stylesheet" href="css/main.min.css">    -->
+      <link rel="stylesheet" href="css/main/main.css"> 
 <!--  <link href="css/app.min.1.css" rel="stylesheet"> -->
 
 
@@ -94,24 +96,24 @@
       <!-- End Facebook Pixel Code -->
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
-<!--       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108802890-1"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109491412-1"></script>
       <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-108802890-1');
-      </script> -->
+      gtag('config', 'UA-109491412-1');
+      </script>
 
-      <script>
+<!--       <script>
       (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
       ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
       ;c.parentNode.insertBefore(a,c)
       })(window,document,"galite","script","https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js");
 
-      galite('create', 'UA-108802890-1', 'auto');
+      galite('create', 'UA-109491412-1', 'auto');
       galite('send', 'pageview');
-      </script>
+      </script> -->
 
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">

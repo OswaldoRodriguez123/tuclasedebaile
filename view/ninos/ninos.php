@@ -1,5 +1,5 @@
 <div id="contenido" style="display: {{visible}};">
-<div class="banner-ofrecemos">
+<div class="banner_ninos">
     <section class="margin-top-30">
         <div class="container">
         <div class="row"> 
@@ -27,17 +27,17 @@
   <div class="row">
     <h3 class="text-center">¿QUÉ OFRECEMOS?</h3>  
     <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/iconos/disco.png" class="img-circle img-responsive img-center img-150" alt="">
+        <img src="img/ninos/profesor.gif" class="img-responsive img-center img-150" alt="">
         <h4>Profesores especializados </h4>                    
         <p>tu hijo aprenderá postura, técnica y expresión correcta con instructores especializados.</p>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/iconos/bebe.png" class="img-circle img-responsive img-center img-150" alt="">
+        <img src="img/ninos/seguridad.gif" class="img-responsive img-center img-150" alt="">
         <h4>Confianza y seguridad</h4>  
         <p>Monitorea los avances de las clases de baile a través de un enlace web que te permitirá seguirlo paso a paso.</p>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
-        <img src="img/iconos/telescopio.png" class="img-circle img-responsive img-center img-150" alt="">
+        <img src="img/ninos/programa.gif" class="img-responsive img-center img-150" alt="">
         <h4>Programa interactivo</h4>  
         <p>Enseñamos la técnica del baile con divertidas lecciones temáticas que disfrutarán en su aprendizaje.</p> 
     </div>    
@@ -45,33 +45,130 @@
   </div> 
 </section>
 <section class="padding-top-bottom-50 fondo-clouds">
-   <div class="container">
+  <div class="container">
     <div class="row"> 
-      <div class="col-md-12 text-center padding-top-10">            
-            <h3 class="g">¿Por qué seleccionar nuestra academia? </h3>
+        <div class="col-md-6 pull-left">    
+
+            <h3 class="g padding-top-bottom-20 text-center">¿Por qué seleccionar nuestra academia? </h3>
             <p>Contamos con la experiencia de más de 15 años en el ecosistema del baile, hemos diseñado un programa de baile para niños de alto nivel ¡tu hijo será guiado por profesionales!
-            </p>
+            </p>   
+
+            <br>
+
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="img/ninos/icon-checklist.png" alt="Respeto">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Respeto por el aprendizaje</h3>
+                    <p class="media-content">Seriedad y alto compromiso en el aprendizaje.</p>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="img/ninos/icon-checklist.png" alt="Disciplina">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Disciplina</h3>
+                    <p class="media-content">Nos esforzamos por mejorar cada día.</p>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="img/ninos/icon-checklist.png" alt="Responsabilidad">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Responsabilidad</h3>
+                    <p class="media-content">Nos preocupamos por la seguridad de los niños.</p>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="img/ninos/icon-checklist.png" alt="Servicio">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Servicio</h3>
+                    <p class="media-content">Nuestros estándares de servicio son de alta calidad.</p>
+                </div>
+            </div>
+
+            <div class="media">
+                <div class="media-left">
+                    <img class="media-object" src="img/ninos/icon-checklist.png" alt="Análisis">
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Análisis</h3>
+                    <p class="media-content">Planificamos con precisión cada etapa de aprendizaje.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 padding-top-20">
-            <img style="margin: 0 auto;" class="img-responsive" src="img/imagenes_nuevas/ofrecemos-2.jpg"> 
-        </div>
-        <div class="col-md-6 pull-left" style="margin-top: 120px">            
-            <p>
-              <i class="fa fa-check icono-inicio-hover"></i> Seriedad y alto compromiso en el aprendizaje.<br>
-
-              <i class="fa fa-check icono-inicio-hover"></i> Nos esforzamos por mejorar cada día.<br>
-
-              <i class="fa fa-check icono-inicio-hover"></i> Nos preocupamos por la seguridad de los niños.<br>
-
-              <i class="fa fa-check icono-inicio-hover"></i> Nuestros estándares de servicio son de alta calidad.<br>
-
-              <i class="fa fa-check icono-inicio-hover"></i> Planificamos con precisión cada etapa de aprendizaje.<br>
-            </p>
+        <div class="col-md-6">
+            <img class="img-responsive profesor" src="img/ninos/imagen_1.png"> 
         </div>
     </div>
-   </div>
+  </div>
 </section>
-<section class="padding-top-bottom-50">
+<section class="profesores">
+
+  <div class="container" style="background-image:url(img/ninos/bg-quotes.png)">
+        <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-7 col-md-offset-0 pull-right">
+                <div class="top-yellow-box">
+                  <h3>Requerimientos para la selección de nuestros instructores</h3>
+                  <div class="media">
+                    <div class="media-left">
+                        <img class="media-object" src="img/ninos/icon-checklist.png" alt="Responsabilidad">
+                    </div>
+                    <div class="media-body">
+                        <p class="media-content">Tener un mínimo de 3 años de experiencia enseñando a niños.</p>
+                    </div>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                        <img class="media-object" src="img/ninos/icon-checklist.png" alt="Responsabilidad">
+                    </div>
+                    <div class="media-body">
+                        <p class="media-content">Ser bailarina profesional con más de 7 años de experiencia.</p>
+                    </div>
+                  </div>
+
+                  <div class="media">
+                    <div class="media-left">
+                        <img class="media-object" src="img/ninos/icon-checklist.png" alt="Responsabilidad">
+                    </div>
+                    <div class="media-body">
+                        <p class="media-content">Conducta social ejemplar e impecable.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="desktop-yellow-box hidden-xs hidden-sm margin-top-30">
+                    <div class="yellow-cutout-text-wrapper">
+                      <p class="yellow-cutout-text">
+                        <br><br><br><br>
+                        Nuestro compromiso es brindar un programa de baile con altos estándares de calidad para tu hijo, por esa razón nuestra exigencia para la selección de instructores es minuciosa y de alto nivel.
+                      </p>
+                      <p class="yellow-cutout-cite">Tu Clase de Baile</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-5 col-md-offset-0">
+                <img class="img-responsive profesor" src="img/ninos/profesor.png">
+                <div class="mobile-yellow-box visible-xs visible-sm">
+                    <div class="yellow-cutout-text-wrapper">
+                      <p class="yellow-cutout-text">Nuestro compromiso es brindar un programa de baile con altos estándares de calidad para tu hijo, por esa razón nuestra exigencia para la selección de instructores es minuciosa y de alto nivel.
+                      </p>
+                        <p class="yellow-cutout-cite">Tu Clase de Baile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   <!--  </div>
    <div class="container">
     <div class="row"> 
       <div class="col-md-12 text-center padding-top-10">            
@@ -93,13 +190,13 @@
             </p>
         </div>
     </div>
-   </div>
+   </div> -->
 </section>
 <section class="padding-top-bottom-50 fondo-clouds">
    <div class="container">
       <div class="row">
           <h3 class="text-center">CASOS DE ÉXITO</h3>  
-              <div class="col-md-4 padding-top-bottom-20 text-center">
+              <div role="button" class="col-md-4 padding-top-bottom-20 text-center" data-toggle="modal" data-target="#Modal1">
               <img src="img/caso-9.jpg" class="img-circle img-responsive img-center img-150" alt="" >
               <h4>LINA BEDOYA</h4>                    
               <p><span style="font-size:35px">“</span>Ha sido una experiencia maravillosa. Cada vez me siento más a gusto en la academia, comparto con mi familia y espero seguir aprendiendo cada día más. ¡Es lo máximo!<span style="font-size:35px">”</span>.</p>
@@ -127,6 +224,20 @@
       </div>
   </div>
 </section>
+</div>
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="Modal1">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body padding-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times-circle" aria-hidden="true"></i></span></button>
+                <div class="videoWrapper">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="youtube" src="http://www.youtube.com/embed/mhHqonzsuoA" allowfullscreen="" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script type="text/javascript-lazy">
    loadjscssfile("js/function/cargar.js", "js");

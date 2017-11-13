@@ -126,8 +126,7 @@
                                                       <select class="form-control" id="region" name="region" placeholder="Seleccione>>" ng-model="formInfo.Region">
                                                           <option value="">Región / Ubicación</option>
                                                           <option value="1">Pereira - Sede Centro</option>
-                                                          <option value="3">Pereira - Sede Circunvalar</option>
-                                                          <option value="2">Sucursal, Venezuela - Maracaibo</option>
+                                                          <option value="3">Manizales</option>
                                                       </select>
                                                     </div>
                                                 </div>
@@ -192,25 +191,25 @@
 
         <br>
     <div class="col-md-3 padding-top-bottom-20 text-center">
-        <img src="img/ic_experiencia.png" class="img-circle img-responsive img-center img-150" alt="" > 
+        <img src="img/ic_experiencia.png" class="img-circle img-responsive img-center img-150" alt="Experiencia" > 
         <br>             
         <span> Profesores internacionales con más de diez años de experiencia </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
-        <img src="img/ic_certificado.png" class="img-circle img-responsive img-center img-150" alt="" > 
+        <img src="img/ic_certificado.png" class="img-circle img-responsive img-center img-150" alt="Certificado" > 
         <br>             
         <span> Reconocemos el esfuerzo de nuestros alumnos, por lo tanto les otorgamos títulos de certificación </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
-        <img src="img/ic_eventos.png" class="img-circle img-responsive img-center img-150" alt="" > 
+        <img src="img/ic_eventos.png" class="img-circle img-responsive img-center img-150" alt="Eventos" > 
         <br>             
         <span> Creamos eventos para nuestros alumnos de talla regional, nacional e internacional </span>
     </div>
 
     <div class="col-md-3 padding-top-bottom-20 text-center">
-        <img src="img/ic_tecnologia.png" class="img-circle img-responsive img-center img-150" alt="" > 
+        <img src="img/ic_tecnologia.png" class="img-circle img-responsive img-center img-150" alt="Tecnologia" > 
         <br>             
         <span> Nuestros alumnos cuentan  con la plataforma tecnológica para gestionar múltiples funcionalidades  </span>
     </div>
@@ -231,17 +230,17 @@
     <h3 class="text-center">UN NUEVO ESTILO DE VIDA</h3>  
 
      <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/caso-8.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <img src="img/caso-8.jpg" class="img-circle img-responsive img-center img-150" alt="GEOVANI RIVERA" >
         <h4>GEOVANI RIVERA</h4>                    
         <blockquote> <span style="font-size:35px">“</span> Pudimos bailar en nuestra boda, esto sin ustedes no hubiese sido posible, un sueño más cumplido, gracias a la academia y sus profesores <span style="font-size:35px">”</span>.</blockquote>
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center">
-        <img src="img/caso-12.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <img src="img/caso-12.jpg" class="img-circle img-responsive img-center img-150" alt="LAURA MAURO" >
         <h4>LAURA MAURO</h4>  
         <blockquote> <span style="font-size:35px">“</span> Las clases muestran variedad y son de gran calidad, Tu Clase De Baile es una academia que permite una mezcla de culturas con profesores venezolanos y alumnos internacionales <span style="font-size:35px">”</span>.</blockquote>   
     </div>
     <div class="col-md-4 padding-top-bottom-20 text-center ">
-        <img src="img/caso-13.jpg" class="img-circle img-responsive img-center img-150" alt="" >
+        <img src="img/caso-13.jpg" class="img-circle img-responsive img-center img-150" alt="DIEGO VELÁSQUEZ" >
         <h4>DIEGO VELÁSQUEZ</h4>  
         <blockquote> <span style="font-size:35px">“</span> Son únicos, es un espacio acogedor en el cual he podido reencontrarme con el gozo de bailar además de aprender cosas nuevas de la mano de gente que es muy profesional y buena onda <span style="font-size:35px">”</span>.</blockquote> 
     </div>
