@@ -2,8 +2,8 @@
 <html lang="es" ng-app='MyApp' ng-controller="tuClaseDeBaileController" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head itemscope itemtype="http://schema.org/WPHeader">
       <title>Tu Clase de Baile</title>
-      <!-- <base href="/tuclasedebaile/" > -->
-      <base href="http://tuclasedebaile.com.co/" >
+      <base href="/tuclasedebaile/" >
+      <!-- <base href="http://tuclasedebaile.com.co/" > -->
       <link rel="canonical" href="http://tuclasedebaile.com.co/" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@tuclasedebaile" />
